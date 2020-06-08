@@ -282,6 +282,10 @@ h1, h2 {
     }
 
     .how-to-order .step-header:after {
+
+        border: 0;
+
+        /* transform: rotate(90deg);
         left: 100%;
         top: 50%;
         content: " ";
@@ -292,7 +296,7 @@ h1, h2 {
         border: solid transparent;
         border-color: rgba(136,183,213,0);
         border-width: 30px;
-        margin-top: -80px;
+        margin-left: -30px; */
 
 
 }
@@ -308,14 +312,20 @@ h1, h2 {
     }
 
     .how-to-order .step-header:after {
-        top: 100%;
-        left: 50%;
+
+        border: 0;
+        /* top: 100%; */
+        /* left: 50%;
         margin-left: -30px;
         margin-top: 0;
         border: transparent solid;
         border-width: 30px;
-        border-left-color: transparent !important;
-        /* border-top-color: #33A3A2; */
+        border-left-color: blue; */
+        /* border-left-color: rgba(136,183,213,0); */
+    }
+
+    .how-to-order .steps p {
+        margin-top: 30px;
     }
 
 /* Extra Small Devices, Phones */ 
