@@ -160,8 +160,8 @@ h1, h2 {
     padding: 5px;
 }
 
-.latest-work img {
-    width: 368px;
+.latest-work .card img {
+    max-width: 100%;
 }
 
 .info .col-md-4 {
