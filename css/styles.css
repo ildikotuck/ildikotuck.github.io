@@ -27,6 +27,11 @@ h1, h2 {
 /* JAY: I'm using border-image gradient here, according to this https://caniuse.com/#search=border-image it's supported but please let me know how I could change this to the "rectangle in rectangle" method if it's not ok */
 
 
+/* Border image should be fine. */
+
+
+
+
 .main-header {
     background-color: #fff;
     border-bottom: solid 6px;
