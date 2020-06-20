@@ -1,15 +1,33 @@
 console.log('Great, it\'s working')
 
-document.querySelector('.burger').addEventListener('click', function() {
+// document.querySelector('.burger').addEventListener('click', function() {
 
+//     console.log('Yay, it clicked!')
+
+//     document.querySelector('.main-header nav').classList.toggle('open')
+//     document.querySelector('.burger').classList.toggle('open')
+
+$('.burger').click( function() {
     console.log('Yay, it clicked!')
-
-    document.querySelector('.main-header nav').classList.toggle('open')
-    document.querySelector('.burger').classList.toggle('open')
-
+    $('.main-header nav').toggleClass('open');
+    $('.burger').toggleClass('open');
 
 });
+
+// });
     
+$('.slider').slick({
+    autoplay: true,
+    dots: false,
+    fade: true,
+    arrows: false,
+    // prevArrow: '<i class="fa fa-chevron-left slick-prev" aria-hidden="true"></i>',
+    // nextArrow: '<i class="fa fa-chevron-right slick-next" aria-hidden="true"></i>',
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+});
+
 $('.question').click(function() {
 
     $('.answer').slideUp();
@@ -25,6 +43,5 @@ $('.question').click(function() {
         $(this).find('.answer').slideDown();
         $(this).attr('data-open', true);
     }
-
 
 });
