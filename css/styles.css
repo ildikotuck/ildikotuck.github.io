@@ -16,6 +16,7 @@ h1, h2 {
     mix-blend-mode: multiply;
 }
 
+
 .main-header, .hero, .testimonials, .faq {
     border-bottom: solid 4px;
     border-image: linear-gradient(to right, #D8E2DD 20%, #FFE5D9 20%, #FFE5D9 40%, #FFCAD4 40%, #FFCAD4 60%, #F5ACB8 60%, #F5ACB8 80%, #9E8189 80%) 5;
@@ -80,9 +81,48 @@ h1, h2 {
     display:none;
 }
 
-.hero {
+
+/* .hero {
     background: url(../images/shade.png) no-repeat bottom center, url(../images/hero-variant-01.png) no-repeat center right;
     background-size: cover;
+} */
+
+.hero {
+    position: relative;
+}
+
+.slider {
+    width: 100vw;
+}
+
+.slides { 
+    width: 100%; 
+    background-size: cover !important;
+}
+
+.slide1 {
+    background:url(../images/hero-variant-03.jpg) no-repeat center center;
+}
+.slide2 {
+    background:url(../images/hero-variant-04.jpg) no-repeat center center;
+}
+
+.hero-text-absolute {
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;  
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.slick-list-draggable {
+    height: 100%;
+}
+
+.hero-text {
+    position: absolute;
 }
 
 .btn {
