@@ -105,14 +105,14 @@ h1, h2 {
 }
 
 .slide1 {
-    background:url(../images/newhero-1.png) no-repeat center center;
+    background:url(../images/newhero-00.png) no-repeat center center;
 }
 .slide2 {
-    background:url(../images/newhero-2.png) no-repeat center center;
+    background:url(../images/newhero-01.png) no-repeat center center;
 }
 
 .slide3 {
-    background:url(../images/newhero-3.png) no-repeat center center;
+    background:url(../images/newhero-02.png) no-repeat bottom center;
 }
 
 
