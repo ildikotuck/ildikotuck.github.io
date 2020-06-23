@@ -89,27 +89,36 @@ h1, h2 {
 
 .hero {
     position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .slider {
     width: 100vw;
-}
 
+}
+.slider svg {
+    width: 100vw;
+}
 .slides { 
     width: 100%; 
-    background-size: cover !important;
 }
 
 .slide1 {
-    background:url(../images/hero-variant-03.jpg) no-repeat center center;
+    background:url(../images/newhero-1.png) no-repeat center center;
 }
 .slide2 {
-    background:url(../images/hero-variant-04.jpg) no-repeat center center;
+    background:url(../images/newhero-2.png) no-repeat center center;
 }
+
+.slide3 {
+    background:url(../images/newhero-3.png) no-repeat center center;
+}
+
 
 .hero-text-absolute {
     position: absolute;  
-    top: 0;
+    top: 20px;
     left: 0;
     width: 100%;  
     height: 100%;
@@ -121,10 +130,15 @@ h1, h2 {
     height: 100%;
 }
 
-.hero-text {
-    position: absolute;
-}
+.hero-text h1, .hero-text p{
+    color: white;
+    mix-blend-mode: exclusion;
+    padding-top: 10px;
+    }
 
+.hero-text p {
+    font-size: 24px;
+}
 .btn {
     text-transform: uppercase;
     margin-top: 20px;
@@ -279,6 +293,12 @@ h1, h2 {
     padding: 10px;
     border-radius: 5px;
 }
+
+.question h3 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
 
 .answer {
     padding: 8px 4px 4px;

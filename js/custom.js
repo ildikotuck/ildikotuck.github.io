@@ -18,8 +18,11 @@ $('.burger').click( function() {
     
 $('.slider').slick({
     autoplay: true,
+    autoplaySpeed: 3000,
     dots: false,
     fade: true,
+    speed: 1200,
+    cssEase: 'linear',
     arrows: false,
     // prevArrow: '<i class="fa fa-chevron-left slick-prev" aria-hidden="true"></i>',
     // nextArrow: '<i class="fa fa-chevron-right slick-next" aria-hidden="true"></i>',
@@ -27,6 +30,7 @@ $('.slider').slick({
     slidesToScroll: 1,
     infinite: true,
 });
+
 
 $('.question').click(function() {
 
