@@ -344,6 +344,7 @@ h1, h2 {
     border-radius: 5px;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 .intro {
@@ -359,6 +360,39 @@ h1, h2 {
 
 .available-materials {
     position: sticky;
+}
+
+.hor {
+    width: 400px;
+    height: 80px;
+    background-color: pink;
+}
+
+.ver {
+    height: 400px;
+    width: 80px;
+    background-color: greenyellow;
+
+}
+
+.hor-1, .ver-1 {
+    background-color: rgba(0,0,0,0.20)
+}
+
+.hor-2, .ver-2 {
+    background-color: rgba(0,0,0,0.40)
+}
+
+.hor-3, .ver-3 {
+    background-color: rgba(0,0,0,0.60)
+}
+
+.hor-4, .ver-4 {
+    background-color: rgba(0,0,0,0.80)
+}
+
+.hor-5, .ver-5 {
+    background-color: rgba(0,0,0,1)
 }
 
 /*==========  Non-Mobile First Method  ==========*/
