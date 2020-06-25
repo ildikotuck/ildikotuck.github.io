@@ -31,6 +31,9 @@ $('.slider').slick({
     infinite: true,
 });
 
+var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
+
+
 
 $('.question').click(function() {
 
