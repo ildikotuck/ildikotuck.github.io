@@ -31,7 +31,7 @@ h1, h2 {
     width: 250px;
 }
 
-.main-header ul {
+.main-header ul, .customiser {
     padding:0;
     margin:0;
 }
@@ -106,13 +106,17 @@ h1, h2 {
 
 .slide1 {
     background:url(../images/newhero-00.png) no-repeat center center;
+    background-size:cover;
 }
+
 .slide2 {
     background:url(../images/newhero-01.png) no-repeat center center;
+    background-size:cover;
 }
 
 .slide3 {
     background:url(../images/newhero-02.png) no-repeat bottom center;
+    background-size:cover;
 }
 
 
@@ -259,6 +263,14 @@ h1, h2 {
     max-width: 100%;
 }
 
+.latest-work .gallery1 a, .latest-work .gallery2 a, .latest-work .gallery3 a {
+    display:none;
+}
+.gallery1 a:first-child, .gallery2 a:first-child, .gallery3 a:first-child {
+    display:block;
+}
+
+
 .testimonials {
     background-color: #ffffff;
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
@@ -306,10 +318,48 @@ h1, h2 {
     display: none;
 }
 
+/* page 2 */
+
+
+.radio-img {
+    width: 200px;
+}
+
+.swatch {
+    width: 80px;
+}
+
+.pattern {
+    width: 600px;
+}
+
 .footer {
     background-color:#fff;
 }
 
+.accordion-header {
+    background-color: #D8E2DD;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.intro {
+    margin: 0;
+    padding: 0;
+
+}
+
+.available-materials, .repeating-pattern {
+    margin: 0;
+    padding: 0;
+}
+
+.available-materials {
+    position: sticky;
+}
 
 /*==========  Non-Mobile First Method  ==========*/
 

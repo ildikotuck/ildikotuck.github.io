@@ -31,7 +31,9 @@ $('.slider').slick({
     infinite: true,
 });
 
-var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
+var lightbox1 = new SimpleLightbox('.gallery1 a', { /* options */ });
+var lightbox1 = new SimpleLightbox('.gallery2 a', { /* options */ });
+var lightbox1 = new SimpleLightbox('.gallery3 a', { /* options */ });
 
 
 
@@ -48,6 +50,24 @@ $('.question').click(function() {
         $('.answer').slideUp();
         $('.question').removeAttr('data-open');
         $(this).find('.answer').slideDown();
+        $(this).attr('data-open', true);
+    }
+
+});
+
+$('.accordion-header').click(function() {
+
+    $('.accordion-content').slideUp();
+
+    if ( $(this).attr('data-open')) {
+
+        $(this).find('.accordion-content').slideUp();
+        $(this).removeAttr('data-open');
+    
+    } else {
+        $('.accordion-content').slideUp();
+        $('.accordion-header').removeAttr('data-open');
+        $(this).find('.accordion-content').slideDown();
         $(this).attr('data-open', true);
     }
 

@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <title>QuiltWorks</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,300;0,700;0,900;1,300;1,700&display=swap">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="stylesheet" href="css/simple-lightbox.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+
+        
+        <header class="main-header">
+
+            <div class="container d-flex justify-content-between align-items-center">
+
+                <img class="logo" src="images/logo2.png" alt="Custom Quilts">
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="/customise.html">Customise a Quilt</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                </nav>
+
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+        </header>
+
+        <section class="customiser">
+            <div class="container">
+                <div class="row d-flex intro">
+                    <div class="col-12">
+                        <h1 class="intro-title">Customise a quilt</h1>
+                        <h3>150x150 quilts for $150 with free shipping Australia-wide.</h3>
+                        <p>This is where you can customise the materials used in creating your quilt. Please specify any custom requests in the comments box below - we will do our best to fulfil them. After sending the form through, we will contact you with estimated delivery time. Once we accept the order we will send you an invoice with the full amount due.</p>
+                    </div>
+                </div> 
+
+                <div class="row d-flex step-one">
+                    <div class="col-12">
+                        <h4 class="accordion-header">1. Select Quilt Style</h4>
+                    <div class="accordion-content">
+                        <input type="radio" name="options" class="quilt-style" />
+                        <label for="Pinwheels Style"><img class="radio-img" src="images/option1.png" alt="Pinwheels"/></label>
+                        <input type="radio" name="options" class="quilt-style" />
+                        <label for="Squares Style"><img class="radio-img" src="images/option2.png" alt="Squares" /></label>
+                        <input type="radio" name="options" class="quilt-style" />
+                        <label for="Lines Style"><img class="radio-img" src="images/option3.png" alt="Lines" /></label>
+                        <a href="#" class="button btn btn-success step-next step-1-submit">Next</a>       
+                    </div>
+                     </div>
+                </div>
+
+                <div class="row d-flex step-two">
+                    <div class="col-12">
+                        <h4 class="accordion-header">2. Select Materials</h4>
+                    <div class="accordion-content d-flex">
+                        <div class="row">
+                            <div class="col-4">
+                                <h6>Available Materials</h6>
+                                <div class="row available-materials">
+                                    <img class="swatch" src="images/img-swatches/001.png" alt="material swatch"/>
+                                    <img class="swatch" src="images/img-swatches/002.png" alt="material swatch"/>
+                                    <img class="swatch" src="images/img-swatches/003.png" alt="material swatch"/>
+                                </div>
+                                <div class="row available-materials">
+                                    <img class="swatch" src="images/img-swatches/004.png" alt="material swatch"/>
+                                    <img class="swatch" src="images/img-swatches/005.png" alt="material swatch"/>
+                                    <img class="swatch" src="images/img-swatches/006.png" alt="material swatch"/>
+                                </div>
+                                <div class="row available-materials">
+                                    <img class="swatch" src="images/img-swatches/007.png" alt="material swatch"/>
+                                    <img class="swatch" src="images/img-swatches/008.png" alt="material swatch"/>
+                                    <img class="swatch" src="images/img-swatches/001.png" alt="material swatch"/>
+                                </div>
+                                <div class="row available-materials">
+                                    <img class="swatch" src="images/img-swatches/002.png" alt="material swatch"/>
+                                    <img class="swatch" src="images/img-swatches/003.png" alt="material swatch"/>
+                                    <img class="swatch" src="images/img-swatches/005.png" alt="material swatch"/>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="row repeating-pattern">
+                                    <h6>Repeating quilt pattern</h6>
+                                    <img class="pattern" src="images/pattern.png" alt="pattern"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="#" class="button btn btn-success step-next step-2-submit">Next</a>    
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="row d-flex step-three">
+                    <div class="col-12">
+                        <h4 class="accordion-header">3. Additional Information</h4>
+                    </div>
+                    <div class="accordion-content">
+                    <div class="col-12">
+                        <label for="comments">Comments:</label>
+                        <input type="textarea" id="comments" name="comments">
+                    </div>
+                    <div class="comments">
+                        <a href="#" class="button btn btn-success">Submit</a>   
+                    </div>
+                </div>
+            </div>
+
+        </section>
+       
+
+
+        <section class="faq text-center">
+            <div class="container">
+                
+                <h2>Frequently Asked Questions</h2>
+
+                <div class="faq-questions text-left">
+        
+                    <div class="question">
+                        <h3>How many styles can I choose from?</h3>
+                        <div class="answer">
+                            <p>We currently have an option of 3, however please contact us for any custom orders. We create each quilt by hand and are happy to accomodate requests.</p>
+                        </div>
+                    </div>
+    
+                    <div class="question">
+                        <h3>How do I pay?</h3>
+                    <div class="answer">
+                        <p>We will send you the final quote and a payment link after we process the order. All our quilts are $200 AUD with free shipping within Australia.</p> </div>
+                    </div>
+    
+                    <div class="question">
+                        <h3>How long does it take?</h3>
+                    <div class="answer">
+                        <p>It depends on our workload, however we aim to complete each order within a week. Please allow additional time for shipping. </p> </div>
+                    </div>
+    
+                    <div class="question">
+                        <h3>Are the quilts machine washable?</h3>
+                    <div class="answer">
+                        <p>Yes! All our quilts can be washed on a 40 degree cold cycle with mild detergent. When selecting materials we always ensure that the colour doesn't run.</p> </div>
+                    </div>
+                </div>
+
+                <a class="btn btn-success" href="#">View more Questions</a>
+
+                    
+                </div>
+            </div>
+    
+        </section>
+
+
+        <footer class="footer">
+            <div class="container text-center">
+                <p>© 2020 QuiltWorks</p>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>            
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="js/simple-lightbox.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+
+</html>
+
+
+
+
