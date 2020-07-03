@@ -1,0 +1,22 @@
+<svg id="pinwheels" xmlns="http://www.w3.org/2000/svg" width="898" height="444" viewBox="0 0 898 444">
+  <defs>
+  </defs>
+  <rect id="background1" data-name="background1 copy" class="cls-1" x="12" y="12" width="420" height="420"/>
+  <path id="left-top-bottom1" class="cls-2" d="M355,290H145V80" transform="translate(-133 -68)"/>
+  <path id="left-top-top1" class="cls-3" d="M144.861,80.14l210-.279,0.279,210" transform="translate(-133 -68)"/>
+  <path id="left-bottom-bottom1" class="cls-2" d="M355,290V500H145" transform="translate(-133 -68)"/>
+  <path id="left-bottom-top1" class="cls-3" d="M145,500V290H355" transform="translate(-133 -68)"/>
+  <path id="right-bottom-top1" class="cls-2" d="M355,290H565V500" transform="translate(-133 -68)"/>
+  <path id="right-bottom-bottom1" class="cls-3" d="M565,500H355V290" transform="translate(-133 -68)"/>
+  <path id="right-top-top1" class="cls-2" d="M355,290V80H565" transform="translate(-133 -68)"/>
+  <path id="right-top-bottom1" class="cls-3" d="M565,80V290H355" transform="translate(-133 -68)"/>
+  <rect id="background2" data-name="background1 copy 2" class="cls-1" x="466" y="12" width="420" height="420"/>
+  <path id="left-top-bottom2" data-name="left-top-bottom copy" class="cls-2" d="M809,290H599V80" transform="translate(-133 -68)"/>
+  <path id="left-top-top2" data-name="left-top-top copy" class="cls-3" d="M598.861,80.14l210-.279,0.279,210" transform="translate(-133 -68)"/>
+  <path id="left-bottom-bottom2" data-name="left-bottom-bottom copy" class="cls-2" d="M809,290V500H599" transform="translate(-133 -68)"/>
+  <path id="left-bottom-top2" data-name="left-bottom-top copy" class="cls-3" d="M599,500V290H809" transform="translate(-133 -68)"/>
+  <path id="right-bottom-top2" data-name="right-bottom-top copy" class="cls-2" d="M809,290h210V500" transform="translate(-133 -68)"/>
+  <path id="right-bottom-bottom2" data-name="right-bottom-bottom copy" class="cls-3" d="M1019,500H809V290" transform="translate(-133 -68)"/>
+  <path id="right-top-top2" data-name="right-top-top copy" class="cls-2" d="M809,290V80h210" transform="translate(-133 -68)"/>
+  <path id="right-top-bottom2" data-name="right-top-bottom copy" class="cls-3" d="M1019,80V290H809" transform="translate(-133 -68)"/>
+</svg>
