@@ -45,7 +45,7 @@
         <section class="customiser">
             <div class="container">
                 <div class="row d-flex intro">
-                    <div class="col-12">
+                    <div class="col-md-12">
                         <h1 class="intro-title">Customise a quilt</h1>
                         <h3>150x150 quilts for $150 with free shipping Australia-wide.</h3>
                         <p>This is where you can customise the materials used in creating your quilt. Please specify any custom requests in the comments box below - we will do our best to fulfil them. After sending the form through, we will contact you with estimated delivery time. Once we accept the order we will send you an invoice with the full amount due.</p>
@@ -53,7 +53,7 @@
                 </div> 
 
                 <div class="row step-one">
-                    <div class="col-12">
+                    <div class="col-md-12">
                         <h4 class="accordion-header">1. Select Quilt Style</h4>
                         <div class="accordion-content">
                             <div class="row">
@@ -73,33 +73,36 @@
                 </div>
 
                 <div class="row d-flex step-two">
-                    <div class="col-12">
+                    <div class="col-md-12">
                         <h4 class="accordion-header">2. Select Materials</h4>
+                    </div>
                     <div class="accordion-content">
                         <div class="row">
-                            <div class="col-3 swatches">
-                                <h6 class="available-materials">Available Materials</h6>
-                                <div class="row">
-                                    <img class="swatch swatch01" src="images/textures/001.png" alt="material swatch"/>
-                                    <img class="swatch swatch02" src="images/textures/002.png" alt="material swatch"/>
-                                    <img class="swatch swatch03" src="images/textures/003.png" alt="material swatch"/>
-                                </div>
-                                <div class="row">
-                                    <img class="swatch swatch04" src="images/textures/004.png" alt="material swatch"/>
-                                    <img class="swatch swatch05" src="images/textures/005.png" alt="material swatch"/>
-                                    <img class="swatch swatch06" src="images/textures/006.png" alt="material swatch"/>
-                                </div>
+                            <div class="col-md-1 textures d-flex flex-column align-items-center">
+                                <h6>Available Materials</h6>
+                                <img class="texture swatch01" src="images/textures/001.png" alt="material texture"/>
+                                <img class="texture swatch02" src="images/textures/002.png" alt="material texture"/>
+                                <img class="texture swatch03" src="images/textures/003.png" alt="material texture"/>  
+                                <img class="texture swatch04" src="images/textures/004.png" alt="material texture"/>
+                                <img class="texture swatch05" src="images/textures/005.png" alt="material texture"/>
+                                <img class="texture swatch06" src="images/textures/006.png" alt="material texture"/>
                             </div>
-                            <div class="col-9">
+                            <div class="col-md-11">
                                 <div class="row">
+                                    <div class="col-md-11">
                                     <h6 class="repeating-pattern">Repeating quilt pattern</h6>
-
+                                    </div>
+                                    <div class="col-md-11">
+                                    <img class="pattern" src="images/lines.svg" alt="pattern"/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    <a href="#" class="button btn btn-success step-next step-2-submit">Next</a>    
+                        <div class="row">
+                            <a href="#" class="button btn btn-success step-next step-2-submit">Next</a>    
+                        </div>
                     </div>
-                    
+        
                 </div>
 
                 <div class="row d-flex step-three">
@@ -107,9 +110,9 @@
                         <h4 class="accordion-header">3. Additional Information</h4>
                     </div>
                     <div class="accordion-content">
-                    <div class="col-12">
+                    <div class="col-12 d-flex flex-column">
                         <label for="comments">Comments:</label>
-                        <input type="textarea" id="comments" name="comments">
+                        <textarea id="comments" name="comments"></textarea> 
                     </div>
                     <div class="comments">
                         <a href="#" class="button btn btn-success">Submit</a>   

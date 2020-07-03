@@ -1,6 +1,25 @@
 <svg id="pinwheels" xmlns="http://www.w3.org/2000/svg" width="898" height="444" viewBox="0 0 898 444">
   <defs>
+    <pattern id="texture1" patternUnits="userSpaceOnUse" width="450" height="450">
+      <image href="https://ildikotuck.github.io/images/textures/001.png" x="0" y="0" width="450" height="450" />
+    </pattern>
+    <pattern id="texture2" patternUnits="userSpaceOnUse" width="450" height="450">
+      <image href="https://ildikotuck.github.io/images/textures/002.png" x="0" y="0" width="450" height="450" />
+    </pattern>
+    <pattern id="texture3" patternUnits="userSpaceOnUse" width="450" height="450">
+      <image href="https://ildikotuck.github.io/images/textures/003.png" x="0" y="0" width="450" height="450" />
+    </pattern>
+    <pattern id="texture4" patternUnits="userSpaceOnUse" width="450" height="450">
+      <image href="https://ildikotuck.github.io/images/textures/004.png" x="0" y="0" width="450" height="450" />
+    </pattern>
+    <pattern id="texture5" patternUnits="userSpaceOnUse" width="450" height="450">
+      <image href="https://ildikotuck.github.io/images/textures/005.png" x="0" y="0" width="450" height="450" />
+    </pattern>
+    <pattern id="texture6" patternUnits="userSpaceOnUse" width="450" height="450">
+      <image href="https://ildikotuck.github.io/images/textures/006.png" x="0" y="0" width="450" height="450" />
+    </pattern>
   </defs>
+  
   <rect id="background1" data-name="background1 copy" class="cls-1" x="12" y="12" width="420" height="420"/>
   <path id="left-top-bottom1" class="cls-2" d="M355,290H145V80" transform="translate(-133 -68)"/>
   <path id="left-top-top1" class="cls-3" d="M144.861,80.14l210-.279,0.279,210" transform="translate(-133 -68)"/>

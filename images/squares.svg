@@ -1,6 +1,25 @@
 <svg id="squares" xmlns="http://www.w3.org/2000/svg" width="888" height="445" viewBox="0 0 888 445">
   <defs>
+    <pattern id="texture1" patternUnits="userSpaceOnUse" width="450" height="450">
+      <image href="https://ildikotuck.github.io/images/textures/001.png" x="0" y="0" width="450" height="450" />
+    </pattern>
+    <pattern id="texture2" patternUnits="userSpaceOnUse" width="450" height="450">
+      <image href="https://ildikotuck.github.io/images/textures/002.png" x="0" y="0" width="450" height="450" />
+    </pattern>
+    <pattern id="texture3" patternUnits="userSpaceOnUse" width="450" height="450">
+      <image href="https://ildikotuck.github.io/images/textures/003.png" x="0" y="0" width="450" height="450" />
+    </pattern>
+    <pattern id="texture4" patternUnits="userSpaceOnUse" width="450" height="450">
+      <image href="https://ildikotuck.github.io/images/textures/004.png" x="0" y="0" width="450" height="450" />
+    </pattern>
+    <pattern id="texture5" patternUnits="userSpaceOnUse" width="450" height="450">
+      <image href="https://ildikotuck.github.io/images/textures/005.png" x="0" y="0" width="450" height="450" />
+    </pattern>
+    <pattern id="texture6" patternUnits="userSpaceOnUse" width="450" height="450">
+      <image href="https://ildikotuck.github.io/images/textures/006.png" x="0" y="0" width="450" height="450" />
+    </pattern>
   </defs>
+
   <rect id="background1" class="cls-1" x="12" y="12" width="420" height="420"/>
   <path id="sm-rect-bottom" class="cls-2" d="M249,186.278L352.988,82.007l104,104.264L352.994,290.542Z" transform="translate(-133 -68)"/>
   <path id="sm-rect-top" class="cls-2" d="M249,393.734L352.988,289.463l104,104.264L352.994,498Z" transform="translate(-133 -68)"/>
