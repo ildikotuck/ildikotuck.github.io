@@ -353,13 +353,71 @@ h1, h2 {
 
 }
 
+.row {
+    position: relative;
+}
+
+
+.pinwheels {
+    background: url(../images/pinwheels.png) center center;
+}
+
+.squares {
+    background: url(../images/squares.png) center center;
+}
+
+.lines {
+    background: url(../images/lines.png) center center;
+}
+
+.image-label {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.styles-radio input:active+.style {
+    opacity: .9;
+
+}
+.styles-radio label:checked+.style {
+    filter: none;
+}
+
+.image-label {
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:200px;
+    transition: all 100ms ease-in;
+    filter: grayscale(1) opacity(.7);
+}
+
+.image-label:hover{
+    filter: none;
+}
+
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+[type=radio]:checked + label {
+  outline: 4px solid #286360;
+  filter: none;
+  }
+
+
 .available-materials, .repeating-pattern {
     margin: 0;
     padding: 0;
 }
 
-.available-materials {
-    position: sticky;
+.swatches {
+    overflow: scroll;
 }
 
 .hor {

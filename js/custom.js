@@ -72,3 +72,7 @@ $('.accordion-header').click(function() {
     }
 
 });
+
+$('.step-one input').click(function() {
+    console.log(  $(this).val()   );
+})

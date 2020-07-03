@@ -16,8 +16,6 @@
     </head>
 
     <body>
-
-        
         <header class="main-header">
 
             <div class="container d-flex justify-content-between align-items-center">
@@ -59,20 +57,17 @@
                         <h4 class="accordion-header">1. Select Quilt Style</h4>
                         <div class="accordion-content">
                             <div class="row">
-                                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
-                                    <label for="pinwheels"><img class="radio-img" src="images/option1.png" alt="Pinwheels"/></label>
-                                    <input type="radio" name="options" class="quilt-style" />
-                                </div>
-                                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
-                                    <label for="squares"><img class="radio-img" src="images/option2.png" alt="Squares" /></label>
-                                    <input type="radio" name="options" class="quilt-style" />
-                                </div>
-                                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
-                                    <label for="lines"><img class="radio-img" src="images/option3.png" alt="Lines" /></label>
-                                    <input type="radio" name="options" class="quilt-style" />
+                                <div class="col-md-12 d-flex styles-radio align-items-center justify-content-center">
+                                    <input id="pinwheels" type="radio" name="style" value="pinwheel" />
+                                    <label class="image-label pinwheels" for="pinwheels"></label>
+                                    
+                                    <input id="squares" type="radio" name="style" value="square" />
+                                    <label class="image-label squares" for="squares"></label>
+
+                                    <input id="lines" type="radio" name="style" value="line" />
+                                    <label class="image-label lines" for="lines"></label>
                                 </div>
                             </div>
-                            <a href="#" class="button btn btn-success step-next step-1-submit">Next</a> 
                         </div>
                      </div>
                 </div>
@@ -82,7 +77,7 @@
                         <h4 class="accordion-header">2. Select Materials</h4>
                     <div class="accordion-content">
                         <div class="row">
-                            <div class="col-3">
+                            <div class="col-3 swatches">
                                 <h6 class="available-materials">Available Materials</h6>
                                 <div class="row">
                                     <img class="swatch swatch01" src="images/img-swatches/001.png" alt="material swatch"/>
@@ -108,24 +103,7 @@
                             <div class="col-9">
                                 <div class="row">
                                     <h6 class="repeating-pattern">Repeating quilt pattern</h6>
-                                    <!-- <img class="pattern" src="images/pattern.png" alt="pattern"/> -->
-                                    <div class="row stripes">
-                                        <div class="col d-flex flex-column stripes-left">
-                                            <div class="hor-1 hor stripe"></div>
-                                            <div class="hor-2 hor stripe"></div>
-                                            <div class="hor-3 hor stripe"></div>
-                                            <div class="hor-4 hor stripe"></div>
-                                            <div class="hor-5 hor stripe"></div>
-                                        </div>
-
-                                        <div class="col d-flex flex-row stripes-right">
-                                            <div class="ver-1 ver stripe"></div>
-                                            <div class="ver-2 ver stripe"></div>
-                                            <div class="ver-3 ver stripe"></div>
-                                            <div class="ver-4 ver stripe"></div>
-                                            <div class="ver-5 ver stripe"></div>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
