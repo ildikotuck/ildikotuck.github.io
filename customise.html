@@ -58,13 +58,13 @@
                         <div class="accordion-content">
                             <div class="row">
                                 <div class="col-md-12 d-flex styles-radio align-items-center justify-content-center">
-                                    <input id="pinwheels" type="radio" name="style" value="pinwheel" />
+                                    <input id="pinwheels" type="radio" name="style" value="pinwheels" />
                                     <label class="image-label pinwheels" for="pinwheels"></label>
                                     
-                                    <input id="squares" type="radio" name="style" value="square" />
+                                    <input id="squares" type="radio" name="style" value="squares" />
                                     <label class="image-label squares" for="squares"></label>
 
-                                    <input id="lines" type="radio" name="style" value="line" />
+                                    <input id="lines" type="radio" name="style" value="lines" />
                                     <label class="image-label lines" for="lines"></label>
                                 </div>
                             </div>
@@ -80,34 +80,135 @@
                         <div class="row">
                             <div class="col-md-1 textures d-flex flex-column align-items-center justify-content-center">
                                 <h6>Available Materials</h6>
-                                <img class="texture swatch01" src="images/textures/001.png" alt="material texture" value="001"/>
-                                <img class="texture swatch02" src="images/textures/002.png" alt="material texture"/>
-                                <img class="texture swatch03" src="images/textures/003.png" alt="material texture"/>  
-                                <img class="texture swatch04" src="images/textures/004.png" alt="material texture"/>
-                                <img class="texture swatch05" src="images/textures/005.png" alt="material texture"/>
-                                <img class="texture swatch06" src="images/textures/006.png" alt="material texture"/>
+                                <img class="texture swatch01" src="images/textures/001.png" alt="material texture" data-desc="001"/>
+                                <img class="texture swatch02" src="images/textures/002.png" alt="material texture" data-desc="002"/>
+                                <img class="texture swatch03" src="images/textures/003.png" alt="material texture" data-desc="003"/>  
+                                <img class="texture swatch04" src="images/textures/004.png" alt="material texture" data-desc="004"/>
+                                <img class="texture swatch05" src="images/textures/005.png" alt="material texture" data-desc="005"/>
+                                <img class="texture swatch06" src="images/textures/006.png" alt="material texture" data-desc="006"/>
                             </div>
                             <div class="col-md-10 repeating-pattern">
                                     <h6>Repeating quilt pattern</h6>
                                     <p>Select pattern on the left and click the desired quilt segment to paint.</p>
-                                    <div class="pattern-display">
-                                    <img class="pattern" src="images/lines.svg" alt="pattern"/>
+                                    <div class="pattern-display pattern-lines">
+                                        <svg id="lines" xmlns="http://www.w3.org/2000/svg" width="841" height="420" viewBox="0 0 841 420">
+                                            <defs>
+                                              <pattern id="001" patternUnits="userSpaceOnUse" width="450" height="450">
+                                                <image href="https://ildikotuck.github.io/images/textures/001.png" x="0" y="0" width="450" height="450" />
+                                              </pattern>
+                                              <pattern id="002" patternUnits="userSpaceOnUse" width="450" height="450">
+                                                <image href="https://ildikotuck.github.io/images/textures/002.png" x="0" y="0" width="450" height="450" />
+                                              </pattern>
+                                              <pattern id="003" patternUnits="userSpaceOnUse" width="450" height="450">
+                                                <image href="https://ildikotuck.github.io/images/textures/003.png" x="0" y="0" width="450" height="450" />
+                                              </pattern>
+                                              <pattern id="004" patternUnits="userSpaceOnUse" width="450" height="450">
+                                                <image href="https://ildikotuck.github.io/images/textures/004.png" x="0" y="0" width="450" height="450" />
+                                              </pattern>
+                                              <pattern id="005" patternUnits="userSpaceOnUse" width="450" height="450">
+                                                <image href="https://ildikotuck.github.io/images/textures/005.png" x="0" y="0" width="450" height="450" />
+                                              </pattern>
+                                              <pattern id="006" patternUnits="userSpaceOnUse" width="450" height="450">
+                                                <image href="https://ildikotuck.github.io/images/textures/006.png" x="0" y="0" width="450" height="450" />
+                                              </pattern>
+                                            </defs>
+                                          
+                                            <path id="hor-1" class="lightest" fill="#EFEFEF" d="M145,80H565v84H145V80Zm0,0H565v84H145V80Z" transform="translate(-145 -80)"/>
+                                            <path id="hor-2" class="light" fill="#D2D2D2" d="M145,164H565v84H145V164Zm0,0H565v84H145V164Z" transform="translate(-145 -80)"/>
+                                            <path id="hor-3" class="medium" fill="#B2b2b2" d="M145,248H565v84H145V248Zm0,0H565v84H145V248Z" transform="translate(-145 -80)"/>
+                                            <path id="hor-4" class="dark" fill="#8f8f8f" d="M145,332H565v84H145V332Zm0,0H565v84H145V332Z" transform="translate(-145 -80)"/>
+                                            <path id="hor-5" class="darkest" fill="#4B4B4B" d="M145,416H565v84H145V416Zm0,0H565v84H145V416Z" transform="translate(-145 -80)"/>
+                                            <path id="ver-1" class="lightest" fill="#EFEFEF" d="M566,80h84V500H566V80Zm0,0h84V500H566V80Z" transform="translate(-145 -80)"/>
+                                            <path id="ver-2" class="light" fill="#d2d2d2" d="M650,80h84V500H650V80Zm0,0h84V500H650V80Z" transform="translate(-145 -80)"/>
+                                            <path id="ver-3" class="medium" fill="#b2b2b2" d="M734,80h84V500H734V80Zm0,0h84V500H734V80Z" transform="translate(-145 -80)"/>
+                                            <path id="ver-4" class="dark" fill="#8f8f8f" d="M818,80h84V500H818V80Zm0,0h84V500H818V80Z" transform="translate(-145 -80)"/>
+                                            <path id="ver-5" class="darkest" fill="#4B4B4B" d="M902,80h84V500H902V80Zm0,0h84V500H902V80Z" transform="translate(-145 -80)"/>
+                                          </svg>
                                     </div>
                             </div>
 
                             <div class="col-md-10 repeating-pattern">
-                                <h6>Repeating quilt pattern</h6>
-                                <p>Select pattern on the left and click the desired quilt segment to paint.</p>
-                                <div class="pattern-display">
-                                <img class="pattern" src="images/pinwheels.svg" alt="pattern"/>
+                                <div class="pattern-display pattern-pinwheels">
+                                    <svg id="pinwheels" xmlns="http://www.w3.org/2000/svg" width="898" height="444" viewBox="0 0 898 444">
+                                        <defs>
+                                          <pattern id="001" patternUnits="userSpaceOnUse" width="450" height="450">
+                                            <image href="https://ildikotuck.github.io/images/textures/001.png" x="0" y="0" width="450" height="450" />
+                                          </pattern>
+                                          <pattern id="002" patternUnits="userSpaceOnUse" width="450" height="450">
+                                            <image href="https://ildikotuck.github.io/images/textures/002.png" x="0" y="0" width="450" height="450" />
+                                          </pattern>
+                                          <pattern id="003" patternUnits="userSpaceOnUse" width="450" height="450">
+                                            <image href="https://ildikotuck.github.io/images/textures/003.png" x="0" y="0" width="450" height="450" />
+                                          </pattern>
+                                          <pattern id="004" patternUnits="userSpaceOnUse" width="450" height="450">
+                                            <image href="https://ildikotuck.github.io/images/textures/004.png" x="0" y="0" width="450" height="450" />
+                                          </pattern>
+                                          <pattern id="005" patternUnits="userSpaceOnUse" width="450" height="450">
+                                            <image href="https://ildikotuck.github.io/images/textures/005.png" x="0" y="0" width="450" height="450" />
+                                          </pattern>
+                                          <pattern id="006" patternUnits="userSpaceOnUse" width="450" height="450">
+                                            <image href="https://ildikotuck.github.io/images/textures/006.png" x="0" y="0" width="450" height="450" />
+                                          </pattern>
+                                        </defs>
+                                      
+                                        <rect id="background1" class="bg" x="12" y="12" width="420" height="420"/>
+                                        <path id="left-top-bottom1" class="pwheel1" fill="#EFEFEF" d="M355,290H145V80" transform="translate(-133 -68)"/>
+                                        <path id="left-top-top1" class="dark" fill="#4B4B4B" d="M144.861,80.14l210-.279,0.279,210" transform="translate(-133 -68)"/>
+                                        <path id="left-bottom-bottom1" class="pwheel2" fill="#D2D2D2" d="M355,290V500H145" transform="translate(-133 -68)"/>
+                                        <path id="left-bottom-top1" class="dark" fill="#4B4B4B" d="M145,500V290H355" transform="translate(-133 -68)"/>
+                                        <path id="right-bottom-top1" class="pwheel3" fill="#B2b2b2" d="M355,290H565V500" transform="translate(-133 -68)"/>
+                                        <path id="right-bottom-bottom1" class="dark" fill="#4B4B4B" d="M565,500H355V290" transform="translate(-133 -68)"/>
+                                        <path id="right-top-top1" class="pwheel4" fill="#8f8f8f" d="M355,290V80H565" transform="translate(-133 -68)"/>
+                                        <path id="right-top-bottom1" class="dark" fill="#4B4B4B" d="M565,80V290H355" transform="translate(-133 -68)"/>
+                                        
+                                        <rect id="background2" class="bg" x="466" y="12" width="420" height="420"/>
+                                        <path id="left-top-bottom2" class="pwheel5" fill="#EFEFEF" d="M809,290H599V80" transform="translate(-133 -68)"/>
+                                        <path id="left-top-top2" class="dark" fill="#4B4B4B" d="M598.861,80.14l210-.279,0.279,210" transform="translate(-133 -68)"/>
+                                        <path id="left-bottom-bottom2" class="pwheel6" fill="#D2D2D2" d="M809,290V500H599" transform="translate(-133 -68)"/>
+                                        <path id="left-bottom-top2" class="dark" fill="#4B4B4B" d="M599,500V290H809" transform="translate(-133 -68)"/>
+                                        <path id="right-bottom-top2" class="pwheel7" fill="#B2b2b2" d="M809,290h210V500" transform="translate(-133 -68)"/>
+                                        <path id="right-bottom-bottom2" class="dark" fill="#4B4B4B" d="M1019,500H809V290" transform="translate(-133 -68)"/>
+                                        <path id="right-top-top2" class="pwheel8" fill="#8f8f8f" d="M809,290V80h210" transform="translate(-133 -68)"/>
+                                        <path id="right-top-bottom2" class="dark" fill="#4B4B4B" d="M1019,80V290H809" transform="translate(-133 -68)"/>
+                                    </svg>
                                 </div>
                             </div>
 
                             <div class="col-md-10 repeating-pattern">
-                                <h6>Repeating quilt pattern</h6>
-                                <p>Select pattern on the left and click the desired quilt segment to paint.</p>
-                                <div class="pattern-display">
-                                <img class="pattern" src="images/squares.svg" alt="pattern"/>
+                                <div class="pattern-display pattern-squares">
+                                    <svg id="squares" xmlns="http://www.w3.org/2000/svg" width="888" height="445" viewBox="0 0 888 445">
+                                        <defs>
+                                          <pattern id="001" patternUnits="userSpaceOnUse" width="450" height="450">
+                                            <image href="https://ildikotuck.github.io/images/textures/001.png" x="0" y="0" width="450" height="450" />
+                                          </pattern>
+                                          <pattern id="002" patternUnits="userSpaceOnUse" width="450" height="450">
+                                            <image href="https://ildikotuck.github.io/images/textures/002.png" x="0" y="0" width="450" height="450" />
+                                          </pattern>
+                                          <pattern id="003" patternUnits="userSpaceOnUse" width="450" height="450">
+                                            <image href="https://ildikotuck.github.io/images/textures/003.png" x="0" y="0" width="450" height="450" />
+                                          </pattern>
+                                          <pattern id="004" patternUnits="userSpaceOnUse" width="450" height="450">
+                                            <image href="https://ildikotuck.github.io/images/textures/004.png" x="0" y="0" width="450" height="450" />
+                                          </pattern>
+                                          <pattern id="005" patternUnits="userSpaceOnUse" width="450" height="450">
+                                            <image href="https://ildikotuck.github.io/images/textures/005.png" x="0" y="0" width="450" height="450" />
+                                          </pattern>
+                                          <pattern id="006" patternUnits="userSpaceOnUse" width="450" height="450">
+                                            <image href="https://ildikotuck.github.io/images/textures/006.png" x="0" y="0" width="450" height="450" />
+                                          </pattern>
+                                        </defs>
+                                      
+                                        <rect id="background1" class="bg" fill="#D2D2D2" x="12" y="12" width="420" height="420"/>
+                                        <path id="sm-rect-bottom" class="light" fill="#EFEFEF" d="M249,186.278L352.988,82.007l104,104.264L352.994,290.542Z" transform="translate(-133 -68)"/>
+                                        <path id="sm-rect-top" class="light" fill="#EFEFEF" d="M249,393.734L352.988,289.463l104,104.264L352.994,498Z" transform="translate(-133 -68)"/>
+                                        <path id="sm-rect-right" class="dark" fill="#4B4B4B" d="M457.722,186L561.993,289.988l-104.264,104L353.458,289.994Z" transform="translate(-133 -68)"/>
+                                        <path id="sm-rect-left" class="dark" fill="#4B4B4B" d="M249.266,186L353.537,289.988l-104.264,104L145,289.994Z" transform="translate(-133 -68)"/>
+                                        <rect id="background2" class="bg" fill="#D2D2D2" x="456" y="13" width="420" height="420"/>
+                                        <path id="sm-rect-left2" class="light" fill="#EFEFEF" d="M591,291.278L694.988,187.007l104,104.264L694.994,395.542Z" transform="translate(-133 -68)"/>
+                                        <path id="sm-rect-right2" class="light" fill="#EFEFEF" d="M798,291.734L901.988,187.463l104,104.264L901.994,396Z" transform="translate(-133 -68)"/>
+                                        <path id="sm-rect-bot2" class="dark" fill="#4B4B4B" d="M798.722,291L902.993,394.988l-104.264,104L694.458,394.994Z" transform="translate(-133 -68)"/>
+                                        <path id="sm-rect-top2" class="dark" fill="#4B4B4B" d="M798.266,83L902.537,186.988l-104.264,104L694,186.994Z" transform="translate(-133 -68)"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>

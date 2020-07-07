@@ -436,6 +436,10 @@ textarea {
     width: 100%;
 }
 
+/* #lines, #squares, #pinwheels {
+    display: none;
+} */
+
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */

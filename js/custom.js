@@ -73,6 +73,107 @@ $('.accordion-header').click(function() {
 
 });
 
+var pattern ='';
+var texture ='';
+
 $('.step-one input').click(function() {
-    console.log(  $(this).val()   );
-})
+    // console.log(  $(this).val()   );
+    pattern = $(this).val() ;
+    console.log(pattern);
+});
+
+function showPattern() {
+    if (pattern === 'squares') {
+        $('#squares').css('display','block');
+    
+    } else if (pattern === 'pinwheels') {
+        $('#pinwheels').css('display','block');
+
+    } else {
+        $('#lines').css('display','block');
+    }
+};
+
+showPattern();
+
+
+$('.texture').click(function() {
+    texture = 'url(#'+$(this).attr('data-desc')+')';
+    console.log(texture);
+});
+
+// lines
+
+$('path.lightest').click (function() {
+    $('.lightest').css('fill',texture)
+});
+
+$('path.light').click (function() {
+    $('.light').css('fill',texture)
+});
+
+$('path.medium').click (function() {
+    $('.medium').css('fill',texture)
+});
+
+$('path.dark').click (function() {
+    $('.dark').css('fill',texture)
+});
+
+$('path.darkest').click (function() {
+    $('.darkest').css('fill',texture)
+});
+
+// pinwheels
+
+$('path.pwheel1').click (function() {
+    $('.pwheel1').css('fill',texture)
+});
+
+$('path.pwheel2').click (function() {
+    $('.pwheel2').css('fill',texture)
+});
+
+$('path.pwheel3').click (function() {
+    $('.pwheel3').css('fill',texture)
+});
+
+$('path.pwheel4').click (function() {
+    $('.pwheel4').css('fill',texture)
+});
+
+$('path.pwheel5').click (function() {
+    $('.pwheel5').css('fill',texture)
+});
+
+$('path.pwheel6').click (function() {
+    $('.pwheel6').css('fill',texture)
+});
+
+$('path.pwheel7').click (function() {
+    $('.pwheel7').css('fill',texture)
+});
+
+$('path.pwheel8').click (function() {
+    $('.pwheel8').css('fill',texture)
+});
+
+$('path.dark').click (function() {
+    $('.dark').css('fill',texture)
+});
+
+
+
+// squares 
+
+$('path.dark').click (function() {
+    $('.dark').css('fill',texture)
+});
+
+$('path.light').click (function() {
+    $('.light').css('fill',texture)
+});
+
+$('.bg').click (function() {
+    $('.bg').css('fill',texture)
+});

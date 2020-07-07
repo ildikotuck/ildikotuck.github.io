@@ -20,14 +20,14 @@
     </pattern>
   </defs>
 
-  <rect id="background1" class="cls-1" x="12" y="12" width="420" height="420"/>
-  <path id="sm-rect-bottom" class="cls-2" d="M249,186.278L352.988,82.007l104,104.264L352.994,290.542Z" transform="translate(-133 -68)"/>
-  <path id="sm-rect-top" class="cls-2" d="M249,393.734L352.988,289.463l104,104.264L352.994,498Z" transform="translate(-133 -68)"/>
-  <path id="sm-rect-right" class="cls-3" d="M457.722,186L561.993,289.988l-104.264,104L353.458,289.994Z" transform="translate(-133 -68)"/>
-  <path id="sm-rect-left" class="cls-3" d="M249.266,186L353.537,289.988l-104.264,104L145,289.994Z" transform="translate(-133 -68)"/>
-  <rect id="background2" class="cls-1" x="456" y="13" width="420" height="420"/>
-  <path id="sm-rect-left2" class="cls-2" d="M591,291.278L694.988,187.007l104,104.264L694.994,395.542Z" transform="translate(-133 -68)"/>
-  <path id="sm-rect-right2" class="cls-2" d="M798,291.734L901.988,187.463l104,104.264L901.994,396Z" transform="translate(-133 -68)"/>
-  <path id="sm-rect-bot2" class="cls-3" d="M798.722,291L902.993,394.988l-104.264,104L694.458,394.994Z" transform="translate(-133 -68)"/>
-  <path id="sm-rect-top2" class="cls-3" d="M798.266,83L902.537,186.988l-104.264,104L694,186.994Z" transform="translate(-133 -68)"/>
+  <rect id="background1" class="bg" fill="#D2D2D2" x="12" y="12" width="420" height="420"/>
+  <path id="sm-rect-bottom" class="light" fill="#EFEFEF" d="M249,186.278L352.988,82.007l104,104.264L352.994,290.542Z" transform="translate(-133 -68)"/>
+  <path id="sm-rect-top" class="light" fill="#EFEFEF" d="M249,393.734L352.988,289.463l104,104.264L352.994,498Z" transform="translate(-133 -68)"/>
+  <path id="sm-rect-right" class="dark" fill="#4B4B4B" d="M457.722,186L561.993,289.988l-104.264,104L353.458,289.994Z" transform="translate(-133 -68)"/>
+  <path id="sm-rect-left" class="dark" fill="#4B4B4B" d="M249.266,186L353.537,289.988l-104.264,104L145,289.994Z" transform="translate(-133 -68)"/>
+  <rect id="background2" class="bg" fill="#D2D2D2" x="456" y="13" width="420" height="420"/>
+  <path id="sm-rect-left2" class="light" fill="#EFEFEF" d="M591,291.278L694.988,187.007l104,104.264L694.994,395.542Z" transform="translate(-133 -68)"/>
+  <path id="sm-rect-right2" class="light" fill="#EFEFEF" d="M798,291.734L901.988,187.463l104,104.264L901.994,396Z" transform="translate(-133 -68)"/>
+  <path id="sm-rect-bot2" class="dark" fill="#4B4B4B" d="M798.722,291L902.993,394.988l-104.264,104L694.458,394.994Z" transform="translate(-133 -68)"/>
+  <path id="sm-rect-top2" class="dark" fill="#4B4B4B" d="M798.266,83L902.537,186.988l-104.264,104L694,186.994Z" transform="translate(-133 -68)"/>
 </svg>
