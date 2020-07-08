@@ -132,6 +132,10 @@ $('path.pwheel1').click (function() {
 
 $('path.pwheel2').click (function() {
     $('.pwheel2').css('fill',texture)
+    $('.pwheel2').addClass('path-selected')
+
+
+
 });
 
 $('path.pwheel3').click (function() {
