@@ -130,21 +130,22 @@ $('.step-one input').click(function() {
 });
 
 function showPattern() {
+
+    $('.step-two .accordion-content').slideDown();
+    $('.step-one .accordion-content').slideUp();
+     // console.log($('.step-one .accordion-content')[0])
+    $('.pattern-display').addClass('hidden');
+
+
     if (pattern === 'squares') {
-        $('.pattern-display').addClass('hidden');
         $('.pattern-squares').removeClass('hidden');
-        $('.step-two .accordion-content').slideDown();
-        
 
     } else if (pattern === 'pinwheels') {
-        $('.pattern-display').addClass('hidden');
         $('.pattern-pinwheels').removeClass('hidden');
-        $('.step-two .accordion-content').slideDown();
 
     } else if (pattern === 'lines') {
-        $('.pattern-display').addClass('hidden');
         $('.pattern-lines').removeClass('hidden');
-        $('.step-two .accordion-content').slideDown();
+
 
     }
 };
