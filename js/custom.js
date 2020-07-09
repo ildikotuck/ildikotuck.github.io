@@ -120,6 +120,8 @@ var cursorsvg = `<?xml version="1.0" encoding="UTF-8"?>
     </g>
 </svg>`;
 
+
+// radio button selection
 $('.step-one input').click(function() {
     // console.log(  $(this).val()   );
     pattern = $(this).val() ;
@@ -145,7 +147,7 @@ function showPattern() {
     }
 };
 
-
+// Selecting material swatches 
 $('.texture').click(function() {
     cursorvalue = $(this).attr('data-desc');
     texture = 'url(#'+$(this).attr('data-desc')+')';
@@ -156,20 +158,18 @@ $('.texture').click(function() {
     $(this).addClass('texture-selected');
 });
 
+
+// Painting and highlighting the large SVGs
 $('.texturefill').click (function() {
     $(this).css('fill',texture)
 });
 
 $('.texturefill').mouseenter (function () {
     $(this).css('opacity','0.9')
-    // $(this).addClass('texturefill-hover');
-
 });
 
 $('.texturefill').mouseleave (function () {
     $(this).css('opacity','1')
-    // $(this).removeClass('texturefill-hover');
-
 });
 
 $('.reset').click (function() {
