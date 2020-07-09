@@ -134,14 +134,18 @@ function showPattern() {
         $('.pattern-display').addClass('hidden');
         $('.pattern-squares').removeClass('hidden');
         $('.step-two .accordion-content').slideDown();
+        
+
     } else if (pattern === 'pinwheels') {
         $('.pattern-display').addClass('hidden');
         $('.pattern-pinwheels').removeClass('hidden');
         $('.step-two .accordion-content').slideDown();
+
     } else if (pattern === 'lines') {
         $('.pattern-display').addClass('hidden');
         $('.pattern-lines').removeClass('hidden');
         $('.step-two .accordion-content').slideDown();
+
     }
 };
 
@@ -170,9 +174,10 @@ $('.texturefill').mouseleave (function () {
     $(this).css('opacity','1')
 });
 
-// $('.reset').click (function() {
-//     $('#hor-1','#ver-1',).css('fill','#EFEFEF');
-// });
+$('.reset').click (function() {
+    event.preventDefault(); 
+    $('.texturefill').css('fill','');
+});
 
 // lines
 

@@ -433,7 +433,6 @@ textarea {
     }
 }
 
-
 .texture {
     width: 60px;
     border-radius: 50%;
@@ -444,6 +443,10 @@ textarea {
     filter: opacity(.7);
 }
 
+.texture-selected {
+    box-shadow: 0 0 0 4px #286360;
+    filter: none;
+}
 
 
 .step-two .button {
@@ -456,10 +459,7 @@ textarea {
     filter: none;
 }
 
-.texture-selected {
-    box-shadow: 0 0 0 4px #286360;
-    filter: none;
-}
+
 
 .svgs {
     width: 100%;
