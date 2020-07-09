@@ -55,7 +55,7 @@
                 <div class="row step-one">
                     <div class="col-md-12">
                         <h4 class="accordion-header">1. Select Quilt Style</h4>
-                        <div class="accordion-content">
+                        <div class="accordion-content shown">
                             <div class="row">
                                 <div class="col-md-12 d-flex styles-radio align-items-center justify-content-center">
                                     <input id="pinwheels" type="radio" name="style" value="pinwheels" />
@@ -78,21 +78,30 @@
                     </div>
                     <div class="accordion-content">
                         <div class="row">
-                            <div class="col-md-1 textures d-flex flex-column align-items-center justify-content-center">
-                                <h6>Available Materials</h6>
-                                <img class="texture swatch01" src="images/textures/001.png" alt="material texture" data-desc="001"/>
-                                <img class="texture swatch02" src="images/textures/002.png" alt="material texture" data-desc="002"/>
-                                <img class="texture swatch03" src="images/textures/003.png" alt="material texture" data-desc="003"/>  
-                                <img class="texture swatch04" src="images/textures/004.png" alt="material texture" data-desc="004"/>
-                                <img class="texture swatch05" src="images/textures/005.png" alt="material texture" data-desc="005"/>
-                                <img class="texture swatch06" src="images/textures/006.png" alt="material texture" data-desc="006"/>
-                                <a class="reset btn" href="#">Reset</a>
+
+                            <div class="col-md-2">
+                                <div class="textures d-flex align-items-center justify-content-center">
+                                    <h6>Available Materials</h6>
+                                    <!-- <div class="dot-slider"> -->
+                                        <img class="texture swatch01" src="images/textures/001.png" alt="material texture" data-desc="001"/>
+                                        <img class="texture swatch02" src="images/textures/002.png" alt="material texture" data-desc="002"/>
+                                        <img class="texture swatch03" src="images/textures/003.png" alt="material texture" data-desc="003"/>  
+                                        <img class="texture swatch04" src="images/textures/004.png" alt="material texture" data-desc="004"/>
+                                        <img class="texture swatch05" src="images/textures/005.png" alt="material texture" data-desc="005"/>
+                                        <img class="texture swatch06" src="images/textures/006.png" alt="material texture" data-desc="006"/>
+                                    <!-- </div> -->
+                                    <a class="reset btn" href="#">Reset</a>
+                                </div>
                             </div>
+
                             <div class="col-md-10 repeating-pattern">
                                     <h6>Repeating quilt pattern</h6>
                                     <p>Select pattern on the left and click the desired quilt segment to paint.</p>
-                                    <div class="pattern-display pattern-lines">
-                                        <svg id="lines" class="svgs" xmlns="http://www.w3.org/2000/svg" width="841" height="420" viewBox="0 0 841 420">
+
+
+
+                                    <div class="pattern-display pattern-lines hidden">
+                                        <svg id="lines" class="svgs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841 420">
                                         <defs>
                                              <pattern id="001" patternUnits="userSpaceOnUse" width="450" height="450">
                                                 <image href="https://ildikotuck.github.io/images/textures/001.png" x="0" y="0" width="450" height="450" />
@@ -129,11 +138,11 @@
                                             <path id="ver-5" class="darkest texturefill" fill="#4B4B4B" d="M902,80h84V500H902V80Zm0,0h84V500H902V80Z" transform="translate(-145 -80)"/>
                                           </svg>
                                     </div>
-                            </div>
+                            <!-- </div>
 
-                            <div class="col-md-10 repeating-pattern">
-                                <div class="pattern-pinwheels">
-                                    <svg class="svgs" id="pinwheels" xmlns="http://www.w3.org/2000/svg" width="898" height="444" viewBox="0 0 898 444">                      
+                            <div class="col-md-10 repeating-pattern"> -->
+                                <div class="pattern-display pattern-pinwheels hidden">
+                                    <svg class="svgs" id="pinwheels" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 898 444">                      
                                         <rect id="background1" class="bg" fill="url(#stripes)" x="12" y="12" width="420" height="420"/>
                                         <path id="left-top-bottom1" class="lightest texturefill" fill="#EFEFEF" stroke="transparent" stroke-width="1px" stroke-linejoin="round" d="M355,290H145V80" transform="translate(-133 -68)"/>
                                         <path id="left-top-top1" class="dark texturefill" fill="#4B4B4B" d="M144.861,80.14l210-.279,0.279,210" transform="translate(-133 -68)"/>
@@ -155,11 +164,11 @@
                                         <path id="right-top-bottom2" class="dark texturefill" fill="#4B4B4B" d="M1019,80V290H809" transform="translate(-133 -68)"/>
                                     </svg>
                                 </div>
-                            </div>
+                            <!-- </div>
 
-                            <div class="col-md-10 repeating-pattern">
-                                <div class="pattern-display pattern-squares">
-                                    <svg class="svgs" id="squares" xmlns="http://www.w3.org/2000/svg" width="888" height="445" viewBox="0 0 888 445">                                      
+                            <div class="col-md-10 repeating-pattern"> -->
+                                <div class="pattern-display pattern-squares hidden">
+                                    <svg class="svgs" id="squares" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 888 445">                                      
                                         <rect id="background1" class="bg texturefill" fill="#D2D2D2" x="12" y="12" width="420" height="420"/>
                                         <path id="sm-rect-bottom" class="light texturefill" fill="#EFEFEF" d="M249,186.278L352.988,82.007l104,104.264L352.994,290.542Z" transform="translate(-133 -68)"/>
                                         <path id="sm-rect-top" class="light texturefill" fill="#EFEFEF" d="M249,393.734L352.988,289.463l104,104.264L352.994,498Z" transform="translate(-133 -68)"/>
@@ -174,8 +183,11 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="row">
-                            <a href="#" class="button btn btn-success step-next step-2-submit">Next</a>    
+                            <div  class="col-2">
+                                <a href="#" class="button btn btn-success step-next step-2-submit">Next</a>
+                            </div>
                         </div>
                     </div>
         

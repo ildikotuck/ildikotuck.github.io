@@ -55,23 +55,23 @@ $('.question').click(function() {
 
 });
 
-$('.accordion-header').click(function() {
+// $('.accordion-header').click(function() {
 
-    $('.accordion-content').slideUp();
+//     $('.accordion-content').slideDown();
 
-    if ( $(this).attr('data-open')) {
+//     if ( $(this).attr('data-open')) {
 
-        $(this).find('.accordion-content').slideUp();
-        $(this).removeAttr('data-open');
+//         $(this).find('.accordion-content').slideUp();
+//         $(this).removeAttr('data-open');
     
-    } else {
-        $('.accordion-content').slideUp();
-        $('.accordion-header').removeAttr('data-open');
-        $(this).find('.accordion-content').slideDown();
-        $(this).attr('data-open', true);
-    }
+//     } else {
+//         $('.accordion-content').slideUp();
+//         $('.accordion-header').removeAttr('data-open');
+//         $(this).find('.accordion-content').slideDown();
+//         $(this).attr('data-open', true);
+//     }
 
-});
+// });
 
 var pattern ='';
 var texture ='url(#stripes)';
@@ -123,25 +123,27 @@ var cursorsvg = `<?xml version="1.0" encoding="UTF-8"?>
 $('.step-one input').click(function() {
     // console.log(  $(this).val()   );
     pattern = $(this).val() ;
-    console.log(pattern);
+    // console.log(pattern);
 
     showPattern();
-
-    function showPattern() {
-        if (pattern === 'squares') {
-            $('#squares').removeClass('hidden');
-            $('#squares').addClass('shown');
-    
-        } else if (pattern === 'pinwheels') {
-            $('#squares').removeClass('hidden');
-            $('#pinwheels').addClass('shown');
-
-        } else {
-            $('#squares').removeClass('hidden');
-            $('#lines').addClass('shown');
-        }
-    };
 });
+
+function showPattern() {
+    if (pattern === 'squares') {
+        console.log(pattern);
+        $('.pattern-display').addClass('hidden');
+        $('.pattern-squares').removeClass('hidden');
+        $('.step-two .accordion-content').slideDown();
+    } else if (pattern === 'pinwheels') {
+        $('.pattern-display').addClass('hidden');
+        $('.pattern-pinwheels').removeClass('hidden');
+        $('.step-two .accordion-content').slideDown();
+    } else if (pattern === 'lines') {
+        $('.pattern-display').addClass('hidden');
+        $('.pattern-lines').removeClass('hidden');
+        $('.step-two .accordion-content').slideDown();
+    }
+};
 
 
 $('.texture').click(function() {
