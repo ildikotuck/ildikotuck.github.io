@@ -74,7 +74,7 @@ $('.question').click(function() {
 // });
 
 var pattern ='';
-var texture ='url(#stripes)';
+var texture ='stripes';
 var cursorvalue ='';
 var cursorsvg = `<?xml version="1.0" encoding="UTF-8"?>
 <svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -120,19 +120,17 @@ var cursorsvg = `<?xml version="1.0" encoding="UTF-8"?>
     </g>
 </svg>`;
 
-
 // radio button selection
 $('.step-one input').click(function() {
     // console.log(  $(this).val()   );
     pattern = $(this).val() ;
-    // console.log(pattern);
+    console.log(pattern);
 
     showPattern();
 });
 
 function showPattern() {
     if (pattern === 'squares') {
-        console.log(pattern);
         $('.pattern-display').addClass('hidden');
         $('.pattern-squares').removeClass('hidden');
         $('.step-two .accordion-content').slideDown();
@@ -150,7 +148,7 @@ function showPattern() {
 // Selecting material swatches 
 $('.texture').click(function() {
     cursorvalue = $(this).attr('data-desc');
-    texture = 'url(#'+$(this).attr('data-desc')+')';
+    texture = $(this).attr('data-desc');
     console.log(texture);
     console.log(cursorvalue);
 
@@ -161,7 +159,7 @@ $('.texture').click(function() {
 
 // Painting and highlighting the large SVGs
 $('.texturefill').click (function() {
-    $(this).css('fill',texture)
+    $(this).css('fill','url(#'+pattern+texture+')')
 });
 
 $('.texturefill').mouseenter (function () {
@@ -172,9 +170,9 @@ $('.texturefill').mouseleave (function () {
     $(this).css('opacity','1')
 });
 
-$('.reset').click (function() {
-    $('#hor-1','#ver-1',).css('fill','#EFEFEF');
-});
+// $('.reset').click (function() {
+//     $('#hor-1','#ver-1',).css('fill','#EFEFEF');
+// });
 
 // lines
 
