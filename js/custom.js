@@ -131,11 +131,15 @@ $('.step-one input').click(function() {
 
 function showPattern() {
 
+// Moving from step 1 to step 2
     $('.step-two .accordion-content').slideDown();
+    $('.step-two .accordion-header').removeClass('accordion-closed');
+    $('.material-slider').slick('setPosition'); 
+    $('.step-one .accordion-header').addClass('accordion-open');   
     $('.step-one .accordion-content').slideUp();
-     // console.log($('.step-one .accordion-content')[0])
+    $('.step-one .accordion-header').addClass('accordion-closed');
+    $('.step-one .accordion-header').removeClass('accordion-open');
     $('.pattern-display').addClass('hidden');
-
 
     if (pattern === 'squares') {
         $('.pattern-squares').removeClass('hidden');
@@ -145,20 +149,72 @@ function showPattern() {
 
     } else if (pattern === 'lines') {
         $('.pattern-lines').removeClass('hidden');
-
-
     }
 };
 
+// Going back to step 1
+$('.step-one .accordion-header').click (function() {
+    $('.step-one .accordion-content').slideDown();
+    $('.step-one .accordion-header').removeClass('accordion-closed');
+    $('.step-one .accordion-header').addClass('accordion-open');   
+    $('.step-two .accordion-content').slideUp();
+    $('.step-two .accordion-header').addClass('accordion-closed');
+    $('.step-two .accordion-header').removeClass('accordion-open');
+    $('.pattern-display').addClass('hidden');
+
+    if (pattern === 'squares') {
+        $('.pattern-squares').removeClass('hidden');
+
+    } else if (pattern === 'pinwheels') {
+        $('.pattern-pinwheels').removeClass('hidden');
+
+    } else if (pattern === 'lines') {
+        $('.pattern-lines').removeClass('hidden');
+    }
+});
+
 // Selecting material swatches 
 $('.texture').click(function() {
-    cursorvalue = $(this).attr('data-desc');
     texture = $(this).attr('data-desc');
     console.log(texture);
-    console.log(cursorvalue);
 
     $('.texture').removeClass('texture-selected');
     $(this).addClass('texture-selected');
+});
+
+
+$('.material-slider').slick({
+    slidesToShow: 10,
+    slidesToScroll: 5,
+    infinite: true,
+    arrows: true,
+    prevArrow: '<i class="fa fa-chevron-left slick-prev" aria-hidden="true"></i>',
+    nextArrow: '<i class="fa fa-chevron-right slick-next" aria-hidden="true"></i>',
+
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 8,
+            slidesToScroll: 4,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 6,
+            slidesToScroll: 3,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+          }
+        }
+    ]
+
 });
 
 
@@ -180,78 +236,16 @@ $('.reset').click (function() {
     $('.texturefill').css('fill','');
 });
 
-// lines
 
-// $('path.light').click (function() {
-//     $('.light').css('fill',texture)
-// });
+// Moving from step 2 to step 3
+$('.save').click (function() {
 
-// $('path.medium').click (function() {
-//     $('.medium').css('fill',texture)
-// });
+    event.preventDefault(); 
+    $('.step-three .accordion-content').slideDown();
+    $('.step-three .accordion-header').removeClass('accordion-closed');
+    $('.step-three .accordion-header').addClass('accordion-open');   
+    $('.step-two .accordion-content').slideUp();
+    $('.step-two .accordion-header').addClass('accordion-closed');
+    $('.step-two .accordion-header').removeClass('accordion-open');
 
-// $('path.dark').click (function() {
-//     $('.dark').css('fill',texture)
-// });
-
-// $('path.darkest').click (function() {
-//     $('.darkest').css('fill',texture)
-// });
-
-// // pinwheels
-
-// $('path.pwheel1').click (function() {
-//     $('.pwheel1').css('fill',texture)
-// });
-
-// $('path.pwheel2').click (function() {
-//     $('.pwheel2').css('fill',texture)
-//     $('.pwheel2').addClass('path-selected')
-
-
-
-// });
-
-// $('path.pwheel3').click (function() {
-//     $('.pwheel3').css('fill',texture)
-// });
-
-// $('path.pwheel4').click (function() {
-//     $('.pwheel4').css('fill',texture)
-// });
-
-// $('path.pwheel5').click (function() {
-//     $('.pwheel5').css('fill',texture)
-// });
-
-// $('path.pwheel6').click (function() {
-//     $('.pwheel6').css('fill',texture)
-// });
-
-// $('path.pwheel7').click (function() {
-//     $('.pwheel7').css('fill',texture)
-// });
-
-// $('path.pwheel8').click (function() {
-//     $('.pwheel8').css('fill',texture)
-// });
-
-// $('path.dark').click (function() {
-//     $('.dark').css('fill',texture)
-// });
-
-
-
-// // squares 
-
-// $('path.dark').click (function() {
-//     $('.dark').css('fill',texture)
-// });
-
-// $('path.light').click (function() {
-//     $('.light').css('fill',texture)
-// });
-
-// $('.bg').click (function() {
-//     $('.bg').css('fill',texture)
-// });
+});
