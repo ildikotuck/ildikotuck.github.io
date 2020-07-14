@@ -398,13 +398,6 @@ textarea {
     background: url(../images/lines.png) center center;
 }
 
-.image-label {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    border-radius: 5px;
-}
-
 .styles-radio input:active+.style {
     opacity: .9;
 
@@ -414,10 +407,13 @@ textarea {
 }
 
 .image-label {
+    min-width: 20%;
+    max-width: 100%;
+    margin: 20px;
+    border-radius: 5px;
     cursor:pointer;
     background-size:contain;
     background-repeat:no-repeat;
-    width:200px;
     transition: all 100ms ease-in;
     filter: grayscale(1) opacity(.7);
 }
