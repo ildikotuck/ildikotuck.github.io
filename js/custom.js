@@ -184,8 +184,8 @@ $('.texture').click(function() {
 
 
 $('.material-slider').slick({
-    slidesToShow: 10,
-    slidesToScroll: 5,
+    slidesToShow: 12,
+    slidesToScroll: 6,
     infinite: true,
     arrows: true,
     prevArrow: '<i class="fa fa-chevron-left slick-prev" aria-hidden="true"></i>',
@@ -210,7 +210,7 @@ $('.material-slider').slick({
           breakpoint: 480,
           settings: {
             slidesToShow: 4,
-            slidesToScroll: 1,
+            slidesToScroll: 2,
           }
         }
     ]
@@ -241,11 +241,13 @@ $('.reset').click (function() {
 $('.save').click (function() {
 
     event.preventDefault(); 
-    $('.step-three .accordion-content').slideDown();
-    $('.step-three .accordion-header').removeClass('accordion-closed');
-    $('.step-three .accordion-header').addClass('accordion-open');   
     $('.step-two .accordion-content').slideUp();
-    $('.step-two .accordion-header').addClass('accordion-closed');
-    $('.step-two .accordion-header').removeClass('accordion-open');
+    $('.step-three .accordion-content').slideDown();
+
+
+    // $('.step-three .accordion-header').removeClass('accordion-closed');
+    // $('.step-three .accordion-header').addClass('accordion-open');   
+    // $('.step-two .accordion-header').addClass('accordion-closed');
+    // $('.step-two .accordion-header').removeClass('accordion-open');
 
 });

@@ -351,16 +351,14 @@ h1, h2 {
 }
 
 
-.accordion-closed::before {
+.accordion-header::before {
     content:'+';
     padding: 5px;
 }
 
-.accordion-open::before {
-    content:'-';
-    padding: 5px;
+.buttons {
+    margin: 30px;
 }
-
 
 textarea {
     width: 400px;
@@ -411,6 +409,7 @@ textarea {
     max-width: 100%;
     margin: 20px;
     border-radius: 5px;
+    padding: 5px;
     cursor:pointer;
     background-size:contain;
     background-repeat:no-repeat;
@@ -468,7 +467,6 @@ textarea {
     right: 20px;
 }
 
-
 .material-slider .slick-list.draggable {
     max-width: 1000px;
     margin: 0 auto;
@@ -476,7 +474,7 @@ textarea {
 
 .material-slider .texture {
     width: 3em;
-    border-radius: 50%;
+    border-radius: 2px;
     margin: 5px auto;
     padding: 5px;
     box-shadow: 0 0 1px rgba(34, 25, 25, 0.4);
