@@ -350,9 +350,6 @@ h1, h2 {
     background-color: #D8E2DD;
 }
 
-
-
-
 .accordion-header::before {
     font-family: FontAwesome;
     content: "\f055";
@@ -547,6 +544,10 @@ h1, h2 {
 
 /* Step 3 form  */
 
+.form {
+    margin-top: 40px;
+}
+
 label {
     display: block;
     padding-right: 5px;
@@ -677,6 +678,8 @@ textarea, input {
     .hero-text p {
         font-size: 20px;
     }
+
+
 
 }
 

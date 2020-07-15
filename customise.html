@@ -20,7 +20,7 @@
 
             <div class="container d-flex justify-content-between align-items-center">
 
-                <img class="logo" src="images/logo2.png" alt="Custom Quilts">
+                <a href="index.html"><img class="logo" src="images/logo2.png" alt="Custom Quilts"></a> 
 
                 <nav>
                     <ul>
@@ -495,21 +495,24 @@
                         <h4 class="accordion-header accordion-closed">3. Additional Information</h4>
                         <div class="col-md-12">
                             <div class="accordion-content">
+                                <div class="form">
+                                    <form action="/action_page.php" method="get">
+                                        <label for="firstname">First Name:</label>
+                                        <input type="text" id="firstname" name="firstname">
 
-                                <label for="firstname">First Name:</label>
-                                <input type="text" id="firstname" name="firstname">
+                                        <label for="lastname">Last Name:</label>
+                                        <input type="text" id="lastname" name="lastname">
 
-                                <label for="lastname">Last Name:</label>
-                                <input type="text" id="lastname" name="lastname">
+                                        <label for="comments">Email:</label>
+                                        <input type="text" id="email" name="email">
 
-                                <label for="comments">Email:</label>
-                                <input type="text" id="email" name="email">
+                                        <label for="comments">Comments:</label>
+                                        <textarea id="comments" name="comments"></textarea> 
 
-                                <label for="comments">Comments:</label>
-                                <textarea id="comments" name="comments"></textarea> 
-
-                                <div class="submit-button">
-                                    <a href="#" class="button btn btn-success">Submit</a>   
+                                        <div class="submit-button">
+                                            <a href="#" class="button btn btn-success">Submit</a>   
+                                        </div>
+                                    </form>
                                 </div>
 
                             </div> <!--step3 accordion content end-->
@@ -558,7 +561,7 @@
 
                 <a class="btn btn-success" href="#">View more Questions</a>
             </div>
-            
+
         </section>
 
 
