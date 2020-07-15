@@ -367,7 +367,6 @@ h1, h2 {
 
 textarea {
     width: 400px;
-
 }
 
 .intro {
@@ -545,9 +544,16 @@ textarea {
 }
 
 
+label {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
 
-
-
+.submit-button {
+    margin-bottom: 30px;
+}
 
 
 /*==========  Non-Mobile First Method  ==========*/
