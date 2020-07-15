@@ -133,12 +133,10 @@ function showPattern() {
 
 // Moving from step 1 to step 2
     $('.step-two .accordion-content').slideDown();
-    $('.step-two .accordion-header').removeClass('accordion-closed');
+    $('.step-two .accordion-header').addClass('accordion-open');
     $('.material-slider').slick('setPosition'); 
-    $('.step-one .accordion-header').addClass('accordion-open');   
+    $('.step-one .accordion-header').removeClass('accordion-open');   
     $('.step-one .accordion-content').slideUp();
-    $('.step-one .accordion-header').addClass('accordion-closed');
-    $('.step-one .accordion-header').removeClass('accordion-open');
     $('.pattern-display').addClass('hidden');
 
     if (pattern === 'squares') {
@@ -155,10 +153,8 @@ function showPattern() {
 // Going back to step 1
 $('.step-one .accordion-header').click (function() {
     $('.step-one .accordion-content').slideDown();
-    $('.step-one .accordion-header').removeClass('accordion-closed');
-    $('.step-one .accordion-header').addClass('accordion-open');   
+    $('.step-one .accordion-header').addClass('accordion-open');
     $('.step-two .accordion-content').slideUp();
-    $('.step-two .accordion-header').addClass('accordion-closed');
     $('.step-two .accordion-header').removeClass('accordion-open');
     $('.pattern-display').addClass('hidden');
 
@@ -172,6 +168,38 @@ $('.step-one .accordion-header').click (function() {
         $('.pattern-lines').removeClass('hidden');
     }
 });
+
+// Moving from step 2 to step 3
+$('.save').click (function() {
+
+    event.preventDefault(); 
+    $('.step-two .accordion-content').slideUp();
+    $('.step-two .accordion-header').removeClass('accordion-open');
+    $('.step-three .accordion-content').slideDown();
+    $('.step-three .accordion-header').addClass('accordion-open');
+});
+
+
+//Going back to step 2
+$('.step-two .accordion-header').click (function() {
+    $('.step-two .accordion-content').slideDown();
+    $('.step-two .accordion-header').addClass('accordion-open');
+    $('.step-three .accordion-content').slideUp();
+    $('.step-three .accordion-header').removeClass('accordion-open');
+    $('.pattern-display').addClass('hidden');
+
+    if (pattern === 'squares') {
+        $('.pattern-squares').removeClass('hidden');
+
+    } else if (pattern === 'pinwheels') {
+        $('.pattern-pinwheels').removeClass('hidden');
+
+    } else if (pattern === 'lines') {
+        $('.pattern-lines').removeClass('hidden');
+    }
+
+});
+
 
 // Selecting material swatches 
 $('.texture').click(function() {
@@ -236,13 +264,4 @@ $('.reset').click (function() {
     $('.texturefill').css('fill','');
 });
 
-
-// Moving from step 2 to step 3
-$('.save').click (function() {
-
-    event.preventDefault(); 
-    $('.step-two .accordion-content').slideUp();
-    $('.step-three .accordion-content').slideDown();
-
-});
 

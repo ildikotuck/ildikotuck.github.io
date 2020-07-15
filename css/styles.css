@@ -351,14 +351,20 @@ h1, h2 {
 }
 
 
+
+
 .accordion-header::before {
-    content:'+';
-    padding: 5px;
+    font-family: FontAwesome;
+    content: "\f055";
+    font-size: 30px;
+    padding-right: 20px;
 }
 
 .accordion-open::before {
-    content:'-';
-    padding: 5px;
+    font-family: FontAwesome;
+    content: "\f056";
+    font-size: 30px;
+    padding-right: 20px;
 }
 
 .buttons {
