@@ -244,10 +244,5 @@ $('.save').click (function() {
     $('.step-two .accordion-content').slideUp();
     $('.step-three .accordion-content').slideDown();
 
-
-    // $('.step-three .accordion-header').removeClass('accordion-closed');
-    // $('.step-three .accordion-header').addClass('accordion-open');   
-    // $('.step-two .accordion-header').addClass('accordion-closed');
-    // $('.step-two .accordion-header').removeClass('accordion-open');
-
 });
+
