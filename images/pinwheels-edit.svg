@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="602px" height="302px" viewBox="0 0 602 302" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>pinwheels-edit</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pinwheels-edit" transform="translate(1.000000, 1.000000)">
+            <rect id="background" stroke="#979797" fill="#FFFFFF" x="0" y="0" width="600" height="300"></rect>
+            <g id="square2" transform="translate(445.000000, 150.000000) scale(1, -1) rotate(-90.000000) translate(-445.000000, -150.000000) translate(315.000000, 20.000000)">
+                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(65.500000, 65.500000) scale(-1, -1) rotate(90.000000) translate(-65.500000, -65.500000) " points="131 -1.23813369e-12 131 131 0 131"></polygon>
+                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(65.500000, 65.500000) rotate(90.000000) translate(-65.500000, -65.500000) " points="131 0 131 131 1.2066862e-13 131"></polygon>
+                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(194.500000, 65.500000) scale(-1, 1) rotate(90.000000) translate(-194.500000, -65.500000) " points="260 -1.01807451e-13 260 131 129 131"></polygon>
+                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(194.500000, 65.500000) scale(1, -1) rotate(90.000000) translate(-194.500000, -65.500000) " points="260 3.81632503e-11 260 131 129 131"></polygon>
+                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(194.500000, 194.500000) scale(-1, -1) rotate(90.000000) translate(-194.500000, -194.500000) " points="260 129 260 260 129 260"></polygon>
+                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(194.500000, 194.500000) rotate(90.000000) translate(-194.500000, -194.500000) " points="260 129 260 260 129 260"></polygon>
+                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(65.500000, 194.500000) scale(-1, 1) rotate(90.000000) translate(-65.500000, -194.500000) " points="131 129 131 260 1.13686838e-13 260"></polygon>
+                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(65.500000, 194.500000) scale(1, -1) rotate(90.000000) translate(-65.500000, -194.500000) " points="131 129 131 260 -3.95621313e-11 260"></polygon>
+            </g>
+            <g id="square1" transform="translate(156.000000, 150.000000) scale(1, -1) rotate(-90.000000) translate(-156.000000, -150.000000) translate(26.000000, 20.000000)">
+                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(65.500000, 65.500000) scale(-1, -1) rotate(90.000000) translate(-65.500000, -65.500000) " points="131 -3.15685075e-13 131 131 0 131"></polygon>
+                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(65.500000, 65.500000) rotate(90.000000) translate(-65.500000, -65.500000) " points="131 0 131 131 1.88751564e-12 131"></polygon>
+                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(194.500000, 65.500000) scale(-1, 1) rotate(90.000000) translate(-194.500000, -65.500000) " points="260 0 260 131 129 131"></polygon>
+                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(194.500000, 65.500000) scale(1, -1) rotate(90.000000) translate(-194.500000, -65.500000) " points="260 4.36317649e-11 260 131 129 131"></polygon>
+                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(194.500000, 194.500000) scale(-1, -1) rotate(90.000000) translate(-194.500000, -194.500000) " points="260 129 260 260 129 260"></polygon>
+                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(194.500000, 194.500000) rotate(90.000000) translate(-194.500000, -194.500000) " points="260 129 260 260 129 260"></polygon>
+                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(65.500000, 194.500000) scale(-1, 1) rotate(90.000000) translate(-65.500000, -194.500000) " points="131 129 131 260 0 260"></polygon>
+                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(65.500000, 194.500000) scale(1, -1) rotate(90.000000) translate(-65.500000, -194.500000) " points="131 129 131 260 -3.99376088e-11 260"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

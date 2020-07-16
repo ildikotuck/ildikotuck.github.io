@@ -559,7 +559,7 @@ textarea, input {
     margin-bottom: 10px;
 }
 
-.submit-button {
+.submit, .save, .back {
     margin-bottom: 30px;
 }
 

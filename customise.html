@@ -4,6 +4,8 @@
     <head>
 
         <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="UTF-8">
+
 
         <title>QuiltWorks</title>
 
@@ -52,24 +54,24 @@
                     </div>
                 </div> 
 
-                <div class="row step-one">
+                <div class="row step step-one">
                     <div class="col-md-12">
-                        <h4 class="accordion-header accordion-open">1. Select Quilt Style</h4>
+                        <h4 class="step accordion-header accordion-open">1. Select Quilt Style</h4>
                         <div class="accordion-content shown">
                             <div class="row">
                                 <div class="col-md-12 d-flex styles-radio align-items-center justify-content-center">
-                                    <input id="pinwheels" type="radio" name="style" value="pinwheels" />
-                                    <label class="image-label pinwheels" for="pinwheels"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <input id="radio-pinwheels" type="radio" name="style" value="pinwheels" />
+                                    <label class="image-label pinwheels" for="radio-pinwheels"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                         <rect x="0" y="0" width="100%" height="100%" style="fill:transparent;"/>
                                           </svg></label>
                                     
-                                    <input id="squares" type="radio" name="style" value="squares" />
-                                    <label class="image-label squares" for="squares"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <input id="radio-squares" type="radio" name="style" value="squares" />
+                                    <label class="image-label squares" for="radio-squares"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                         <rect x="0" y="0" width="100%" height="100%" style="fill:transparent;"/>
                                           </svg></label>
 
-                                    <input id="lines" type="radio" name="style" value="lines" />
-                                    <label class="image-label lines" for="lines"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <input id="radio-lines" type="radio" name="style" value="lines" />
+                                    <label class="image-label lines" for="radio-lines"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                         <rect x="0" y="0" width="100%" height="100%" style="fill:transparent;"/>
                                           </svg></label>
                                 </div>
@@ -78,7 +80,7 @@
                     </div>
                 </div> <!--Step one end-->
 
-                <div class="row d-flex step-two">
+                <div class="row step step-two">
                     <div class="col-md-12">
                         <h4 class="accordion-header accordion-closed">2. Select Materials</h4>
                         <div class="col-md-12">
@@ -131,7 +133,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="pattern-display pattern-lines hidden">
-                                            <svg id="lines" class="svgs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841 420">
+                                            <svg id="edit-lines" class="svgs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841 420">
                                                 <defs>
                                                     <pattern id="lines001" patternUnits="userSpaceOnUse" width="100" height="100">
                                                         <image href="https://ildikotuck.github.io/images/textures/001.jpg" x="0" y="0" width="100" height="100" />
@@ -225,26 +227,26 @@
                                                     </pattern>
 
                                                     <pattern id="linesstripes" patternUnits="userSpaceOnUse" width="100" height="100"> 
-                                                        <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAABlBMVEUAAAAAAAClZ7nPAAAAAnRSTlMAGovxNEIAAAAoSURBVDhPYxBEAgIMSkhAgcEFCTgwdCCBBoZRfaP6RvWN6hvVR5Y+APADQlQnmrINAAAAAElFTkSuQmCC"> 
+                                                        <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAABlBMVEUAAAAAAAClZ7nPAAAAAnRSTlMAGovxNEIAAAAoSURBVDhPYxBEAgIMSkhAgcEFCTgwdCCBBoZRfaP6RvWN6hvVR5Y+APADQlQnmrINAAAAAElFTkSuQmCC"> </image>
                                                     </pattern>
                                                 </defs>
                                                 
-                                                <path id="hor-1" class="lightest texturefill" fill="#EFEFEF" d="M145,80H565v84H145V80Zm0,0H565v84H145V80Z" transform="translate(-145 -80)"/>
-                                                <path id="hor-2" class="light texturefill" fill="#D2D2D2" d="M145,164H565v84H145V164Zm0,0H565v84H145V164Z" transform="translate(-145 -80)"/>
-                                                <path id="hor-3" class="medium texturefill" fill="#B2b2b2" d="M145,248H565v84H145V248Zm0,0H565v84H145V248Z" transform="translate(-145 -80)"/>
-                                                <path id="hor-4" class="dark texturefill" fill="#8f8f8f" d="M145,332H565v84H145V332Zm0,0H565v84H145V332Z" transform="translate(-145 -80)"/>
-                                                <path id="hor-5" class="darkest texturefill" fill="#4B4B4B" d="M145,416H565v84H145V416Zm0,0H565v84H145V416Z" transform="translate(-145 -80)"/>
+                                                <path id="hor-1" data-group="horizontal-1a" class="horizontal-1a lightest texturefill" fill="#EFEFEF" d="M145,80H565v84H145V80Zm0,0H565v84H145V80Z" transform="translate(-145 -80)"/>
+                                                <path id="hor-2" data-group="horizontal-2a" class="horizontal-2a light texturefill" fill="#D2D2D2" d="M145,164H565v84H145V164Zm0,0H565v84H145V164Z" transform="translate(-145 -80)"/>
+                                                <path id="hor-3" data-group="horizontal-3a" class="horizontal-3a medium texturefill" fill="#B2b2b2" d="M145,248H565v84H145V248Zm0,0H565v84H145V248Z" transform="translate(-145 -80)"/>
+                                                <path id="hor-4" data-group="horizontal-4a" class="horizontal-4a dark texturefill" fill="#8f8f8f" d="M145,332H565v84H145V332Zm0,0H565v84H145V332Z" transform="translate(-145 -80)"/>
+                                                <path id="hor-5" data-group="horizontal-5a" class="horizontal-5a darkest texturefill" fill="#4B4B4B" d="M145,416H565v84H145V416Zm0,0H565v84H145V416Z" transform="translate(-145 -80)"/>
                                                 
-                                                <path id="ver-1" class="lightest texturefill" fill="#EFEFEF" d="M566,80h84V500H566V80Zm0,0h84V500H566V80Z" transform="translate(-145 -80)"/>
-                                                <path id="ver-2" class="light texturefill" fill="#d2d2d2" d="M650,80h84V500H650V80Zm0,0h84V500H650V80Z" transform="translate(-145 -80)"/>
-                                                <path id="ver-3" class="medium texturefill" fill="#b2b2b2" d="M734,80h84V500H734V80Zm0,0h84V500H734V80Z" transform="translate(-145 -80)"/>
-                                                <path id="ver-4" class="dark texturefill" fill="#8f8f8f" d="M818,80h84V500H818V80Zm0,0h84V500H818V80Z" transform="translate(-145 -80)"/>
-                                                <path id="ver-5" class="darkest texturefill" fill="#4B4B4B" d="M902,80h84V500H902V80Zm0,0h84V500H902V80Z" transform="translate(-145 -80)"/>
+                                                <path id="ver-1" data-group="vertical-1b" class="vertical-1b lightest texturefill" fill="#EFEFEF" d="M566,80h84V500H566V80Zm0,0h84V500H566V80Z" transform="translate(-145 -80)"/>
+                                                <path id="ver-2" data-group="vertical-2b" class="vertical-2b light texturefill" fill="#d2d2d2" d="M650,80h84V500H650V80Zm0,0h84V500H650V80Z" transform="translate(-145 -80)"/>
+                                                <path id="ver-3" data-group="vertical-3b" class="vertical-3b medium texturefill" fill="#b2b2b2" d="M734,80h84V500H734V80Zm0,0h84V500H734V80Z" transform="translate(-145 -80)"/>
+                                                <path id="ver-4" data-group="vertical-4b" class="vertical-4b dark texturefill" fill="#8f8f8f" d="M818,80h84V500H818V80Zm0,0h84V500H818V80Z" transform="translate(-145 -80)"/>
+                                                <path id="ver-5" data-group="vertical-5b" class="vertical-5b darkest texturefill" fill="#4B4B4B" d="M902,80h84V500H902V80Zm0,0h84V500H902V80Z" transform="translate(-145 -80)"/>
                                             </svg>
                                         </div>  <!-- End lines pattern -->
                         
                                         <div class="pattern-display pattern-pinwheels hidden">
-                                            <svg id="pinwheels" class="svgs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 898 444"> 
+                                            <svg id="edit-pinwheels" class="svgs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 898 444"> 
                                                 <defs>
                                                     <pattern id="pinwheels001" patternUnits="userSpaceOnUse" width="100" height="100">
                                                         <image href="https://ildikotuck.github.io/images/textures/001.jpg" x="0" y="0" width="100" height="100" />
@@ -342,28 +344,28 @@
                                                     </pattern>
                                                 </defs>
                                             
-                                                <path id="left-top-bottom1" class="lightest texturefill" fill="#EFEFEF" stroke="transparent" stroke-width="1px" stroke-linejoin="round" d="M355,290H145V80" transform="translate(-133 -68)"/>
-                                                <path id="left-top-top1" class="dark texturefill" fill="#4B4B4B" d="M144.861,80.14l210-.279,0.279,210" transform="translate(-133 -68)"/>
-                                                <path id="left-bottom-bottom1" class="light texturefill" fill="#D2D2D2" d="M355,290V500H145" transform="translate(-133 -68)"/>
-                                                <path id="left-bottom-top1" class="dark texturefill" fill="#4B4B4B" d="M145,500V290H355" transform="translate(-133 -68)"/>
-                                                <path id="right-bottom-top1" class="lightest texturefill" fill="#B2b2b2" d="M355,290H565V500" transform="translate(-133 -68)"/>
-                                                <path id="right-bottom-bottom1" class="dark texturefill" fill="#4B4B4B" d="M565,500H355V290" transform="translate(-133 -68)"/>
-                                                <path id="right-top-top1" class="light texturefill" fill="#8f8f8f" d="M355,290V80H565" transform="translate(-133 -68)"/>
-                                                <path id="right-top-bottom1" class="dark texturefill" fill="#4B4B4B" d="M565,80V290H355" transform="translate(-133 -68)"/>
+                                                <path id="1-top-02a" data-group="1-top-02a" class="lightest texturefill" fill="#EFEFEF" stroke="transparent" stroke-width="1px" stroke-linejoin="round" d="M355,290H145V80" transform="translate(-133 -68)"/>
+                                                <path id="1-top-01a" data-group="1-top-01a" class="dark texturefill" fill="#4B4B4B" d="M144.861,80.14l210-.279,0.279,210" transform="translate(-133 -68)"/>
+                                                <path id="1-bot-02a" data-group="1-bot-02a" class="light texturefill" fill="#D2D2D2" d="M355,290V500H145" transform="translate(-133 -68)"/>
+                                                <path id="1-bot-01a" data-group="1-bot-01a" class="dark texturefill" fill="#4B4B4B" d="M145,500V290H355" transform="translate(-133 -68)"/>
+                                                <path id="1-bot-02b" data-group="1-bot-02b" class="lightest texturefill" fill="#B2b2b2" d="M355,290H565V500" transform="translate(-133 -68)"/>
+                                                <path id="1-bot-01b" data-group="1-bot-01b" class="dark texturefill" fill="#4B4B4B" d="M565,500H355V290" transform="translate(-133 -68)"/>
+                                                <path id="1-top-02b" data-group="1-top-02b" class="light texturefill" fill="#8f8f8f" d="M355,290V80H565" transform="translate(-133 -68)"/>
+                                                <path id="1-top-01b" data-group="1-top-01b" class="dark texturefill" fill="#4B4B4B" d="M565,80V290H355" transform="translate(-133 -68)"/>
                                                 
-                                                <path id="left-top-bottom2" class="lightest texturefill" fill="#EFEFEF" d="M809,290H599V80" transform="translate(-133 -68)"/>
-                                                <path id="left-top-top2" class="dark texturefill" fill="#4B4B4B" d="M598.861,80.14l210-.279,0.279,210" transform="translate(-133 -68)"/>
-                                                <path id="left-bottom-bottom2" class="light texturefill" fill="#D2D2D2" d="M809,290V500H599" transform="translate(-133 -68)"/>
-                                                <path id="left-bottom-top2" class="dark texturefill" fill="#4B4B4B" d="M599,500V290H809" transform="translate(-133 -68)"/>
-                                                <path id="right-bottom-top2" class="ligthest texturefill" fill="#B2b2b2" d="M809,290h210V500" transform="translate(-133 -68)"/>
-                                                <path id="right-bottom-bottom2" class="dark texturefill" fill="#4B4B4B" d="M1019,500H809V290" transform="translate(-133 -68)"/>
-                                                <path id="right-top-top2" class="light texturefill" fill="#8f8f8f" d="M809,290V80h210" transform="translate(-133 -68)"/>
-                                                <path id="right-top-bottom2" class="dark texturefill" fill="#4B4B4B" d="M1019,80V290H809" transform="translate(-133 -68)"/>
+                                                <path id="2-top-02a" data-group="2-top-02a" class="lightest texturefill" fill="#EFEFEF" d="M809,290H599V80" transform="translate(-133 -68)"/>
+                                                <path id="2-top-01a" data-group="2-top-01a" class="dark texturefill" fill="#4B4B4B" d="M598.861,80.14l210-.279,0.279,210" transform="translate(-133 -68)"/>
+                                                <path id="2-bot-02a" data-group="2-bot-02a" class="light texturefill" fill="#D2D2D2" d="M809,290V500H599" transform="translate(-133 -68)"/>
+                                                <path id="2-bot-01a" data-group="2-bot-01a" class="dark texturefill" fill="#4B4B4B" d="M599,500V290H809" transform="translate(-133 -68)"/>
+                                                <path id="2-bot-02b" data-group="2-bot-02b" class="ligthest texturefill" fill="#B2b2b2" d="M809,290h210V500" transform="translate(-133 -68)"/>
+                                                <path id="2-bot-01b" data-group="2-bot-01b" class="dark texturefill" fill="#4B4B4B" d="M1019,500H809V290" transform="translate(-133 -68)"/>
+                                                <path id="2-top-02b" data-group="2-top-02b" class="light texturefill" fill="#8f8f8f" d="M809,290V80h210" transform="translate(-133 -68)"/>
+                                                <path id="2-top-01a" data-group="2-top-01b" class="dark texturefill" fill="#4B4B4B" d="M1019,80V290H809" transform="translate(-133 -68)"/>
                                             </svg>
                                         </div> <!-- End pinwheels pattern -->
                             
                                         <div class="pattern-display pattern-squares hidden">
-                                            <svg class="svgs" id="squares" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 888 445">  
+                                            <svg id="edit-squares" class="svgs" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 602 302">  
                                                 <defs>
                                                     <pattern id="squares001" patternUnits="userSpaceOnUse" width="100" height="100">
                                                         <image href="https://ildikotuck.github.io/images/textures/001.jpg" x="0" y="0" width="100" height="100" />
@@ -455,29 +457,34 @@
                                                     <pattern id="squares030" patternUnits="userSpaceOnUse" width="100" height="100">
                                                         <image href="https://ildikotuck.github.io/images/textures/030.jpg" x="0" y="0" width="100" height="100" />
                                                     </pattern>
-
                                                     <pattern id="squaresstripes" patternUnits="userSpaceOnUse" width="100" height="100"> 
-                                                        <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAABlBMVEUAAAAAAAClZ7nPAAAAAnRSTlMAGovxNEIAAAAoSURBVDhPYxBEAgIMSkhAgcEFCTgwdCCBBoZRfaP6RvWN6hvVR5Y+APADQlQnmrINAAAAAElFTkSuQmCC"> 
+                                                        <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAABlBMVEUAAAAAAAClZ7nPAAAAAnRSTlMAGovxNEIAAAAoSURBVDhPYxBEAgIMSkhAgcEFCTgwdCCBBoZRfaP6RvWN6hvVR5Y+APADQlQnmrINAAAAAElFTkSuQmCC"/> 
                                                     </pattern>
                                                 </defs>
-
-                                                <rect id="background1" class="bg texturefill" fill="#D2D2D2" x="12" y="12" width="420" height="420"/>
-                                                <path id="sm-rect-bottom" class="light texturefill" fill="#EFEFEF" d="M249,186.278L352.988,82.007l104,104.264L352.994,290.542Z" transform="translate(-133 -68)"/>
-                                                <path id="sm-rect-top" class="light texturefill" fill="#EFEFEF" d="M249,393.734L352.988,289.463l104,104.264L352.994,498Z" transform="translate(-133 -68)"/>
-                                                <path id="sm-rect-right" class="dark texturefill" fill="#4B4B4B" d="M457.722,186L561.993,289.988l-104.264,104L353.458,289.994Z" transform="translate(-133 -68)"/>
-                                                <path id="sm-rect-left" class="dark texturefill" fill="#4B4B4B" d="M249.266,186L353.537,289.988l-104.264,104L145,289.994Z" transform="translate(-133 -68)"/>
                                                 
-                                                <rect id="background2" class="bg texturefill" fill="#D2D2D2" x="456" y="13" width="420" height="420"/>
-                                                <path id="sm-rect-left2" class="light texturefill" fill="#EFEFEF" d="M591,291.278L694.988,187.007l104,104.264L694.994,395.542Z" transform="translate(-133 -68)"/>
-                                                <path id="sm-rect-right2" class="light texturefill" fill="#EFEFEF" d="M798,291.734L901.988,187.463l104,104.264L901.994,396Z" transform="translate(-133 -68)"/>
-                                                <path id="sm-rect-bot2" class="dark texturefill" fill="#4B4B4B" d="M798.722,291L902.993,394.988l-104.264,104L694.458,394.994Z" transform="translate(-133 -68)"/>
-                                                <path id="sm-rect-top2" class="dark texturefill" fill="#4B4B4B" d="M798.266,83L902.537,186.988l-104.264,104L694,186.994Z" transform="translate(-133 -68)"/>
+                                                    <g id="squares-edit" transform="translate(1.000000, 1.000000)">
+                                                        <rect id="background" stroke="rgb(232,232,232)" fill="#FFFFFF" x="0" y="0" width="600" height="300"></rect>
+                                                        <g id="square2" transform="translate(314.000000, 19.000000)">
+                                                            <rect id="2bge" data-group="2bg" class="texturefill" fill="#D8D8D8" x="0" y="0" width="256" height="256"></rect>
+                                                            <polygon id="2-le" data-group="2-l" class="texturefill" fill="#959595" transform="translate(64.407578, 127.999954) rotate(-45.000000) translate(-64.407578, -127.999954) " points="19.5666703 83.1591111 109.248486 83.1591111 109.248486 172.840797 19.5666703 172.840797"></polygon>
+                                                            <polygon id="2-be" data-group="2-b" class="texturefill" fill="#EFEFEF" transform="translate(128.000046, 191.592311) rotate(-45.000000) translate(-128.000046, -191.592311) " points="83.1592166 146.751546 172.840876 146.751546 172.840876 236.433075 83.1592166 236.433075"></polygon>
+                                                            <polygon id="2-re" data-group="2-r" class="texturefill" fill="#959595" transform="translate(191.592311, 128.000046) rotate(-45.000000) translate(-191.592311, -128.000046) " points="146.751481 83.1592817 236.43314 83.1592817 236.43314 172.84081 146.751481 172.84081"></polygon>
+                                                            <polygon id="2-te" data-group="2-t" class="texturefill" fill="#EFEFEF" transform="translate(127.999954, 64.407689) rotate(-45.000000) translate(-127.999954, -64.407689) " points="83.1591245 19.566925 172.840783 19.566925 172.840783 109.248454 83.1591245 109.248454"></polygon>
+                                                        </g>
+                                                        <g id="square1" transform="translate(26.000000, 19.000000)">
+                                                            <rect id="1bge" data-group="1bg" class="texturefill" fill="#D8D8D8" x="0" y="0" width="256" height="256"></rect>
+                                                            <polygon id="1-le" data-group="1-l" class="texturefill" fill="#EFEFEF" transform="translate(64.407578, 127.999954) rotate(-45.000000) translate(-64.407578, -127.999954) " points="19.5666703 83.1591111 109.248486 83.1591111 109.248486 172.840797 19.5666703 172.840797"></polygon>
+                                                            <polygon id="1-te" data-group="1-t" class="texturefill" fill="#959595" transform="translate(127.999954, 64.407689) rotate(-45.000000) translate(-127.999954, -64.407689) " points="83.1591245 19.566925 172.840783 19.566925 172.840783 109.248454 83.1591245 109.248454"></polygon>
+                                                            <polygon id="1-re" data-group="1-r" class="texturefill" fill="#EFEFEF" transform="translate(191.592311, 128.000046) rotate(-45.000000) translate(-191.592311, -128.000046) " points="146.751481 83.1592817 236.43314 83.1592817 236.43314 172.84081 146.751481 172.84081"></polygon>
+                                                            <polygon id="1-be" data-group="1-b" class="texturefill" fill="#959595" transform="translate(128.000046, 191.592311) rotate(-45.000000) translate(-128.000046, -191.592311) " points="83.1592166 146.751546 172.840876 146.751546 172.840876 236.433075 83.1592166 236.433075"></polygon>
+                                                        </g>
+                                                    </g>
                                             </svg>
                                         </div> <!-- End squares pattern -->
 
                                         <div class="row">
                                             <div class="col-md-12 buttons">
-                                                <a href="#" class="button btn btn-success step-next save">Save Quilt Style</a>
+                                                <a href="#" class="button btn btn-success next">Preview Quilt</a>
 
                                                 <a class="reset btn btn-light" href="#">Start Again</a>
                                             </div>
@@ -489,10 +496,646 @@
                     </div> 
                 </div> <!-- Step two end-->
 
-
-                <div class="row step-three">
+                <div class="row step step-three">
                     <div class="col-md-12">
-                        <h4 class="accordion-header accordion-closed">3. Additional Information</h4>
+                        <h4 class="accordion-header accordion-closed">3. Preview Quilt</h4>
+                        <div class="col-md-12">
+                            <div class="accordion-content">
+                                <svg id="preview-lines" class="previews hidden" width="602px" height="602px" viewBox="0 0 602 602" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <pattern id="previewlines001" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/001.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines002" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/002.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines003" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/003.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines004" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/004.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines005" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/005.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines006" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/006.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines007" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/007.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines008" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/008.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines009" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/009.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines010" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/010.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines011" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/011.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines012" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/012.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines013" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/013.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines014" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/014.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines015" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/015.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="lpreviewines016" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/016.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines017" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/017.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines018" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/018.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines019" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/019.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines020" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/020.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines021" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/021.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines022" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/022.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines023" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/023.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines024" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/024.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines025" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/025.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines026" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/026.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines027" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/027.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines028" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/028.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines029" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/029.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewlines030" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/030.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                    </defs>
+
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Group-3" transform="translate(1.000000, 1.000000)">
+                                        <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0" y="0" width="600" height="600"></rect>
+                                    <g id="Group-2" transform="translate(10.628019, 12.540193)" fill="#D8D8D8">
+                                    <g id="l01-group">
+                                        <rect id="l01" data-group="horizontal-1a" class="horizontal-1a texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l02" data-group="horizontal-2a" class="horizontal-2a texturefill" fill="#D2D2D2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l03" data-group="horizontal-3a" class="horizontal-3a texturefill" fill="#B2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l04" data-group="horizontal-4a" class="horizontal-4a texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l05" data-group="horizontal-5a" class="horizontal-5a texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l02-group" transform="translate(217.391304, 72.347267) rotate(-90.000000) translate(-217.391304, -72.347267) translate(144.927536, 0.000000)">
+                                        <rect id="l06" data-group="vertical-1b" class="vertical-1b texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l07" data-group="vertical-2b" class="vertical-2b texturefill" fill="#d2d2d2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l08" data-group="vertical-3b" class="vertical-3b texturefill" fill="#b2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l09" data-group="vertical-4b" class="vertical-4b texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l10" data-group="vertical-5b" class="vertical-5b texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l03-group" transform="translate(289.855072, 0.000000)">
+                                        <rect id="l11" data-group="horizontal-1a" class="horizontal-1a texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l12" data-group="horizontal-2a" class="horizontal-2a texturefill" fill="#D2D2D2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l13" data-group="horizontal-3a" class="horizontal-3a texturefill" fill="#B2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l14" data-group="horizontal-4a" class="horizontal-4a texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l15" data-group="horizontal-5a" class="horizontal-5a texturefill" fill="#4B4B4B"  x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l04-group" transform="translate(144.927536, 144.694534)">
+                                        <rect id="l16" data-group="horizontal-1a" class="horizontal-1a texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l17" data-group="horizontal-2a" class="horizontal-2a texturefill" fill="#D2D2D2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l18" data-group="horizontal-3a" class="horizontal-3a texturefill" fill="#B2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l19" data-group="horizontal-4a" class="horizontal-4a texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l20" data-group="horizontal-5a" class="horizontal-5a texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l05-group" transform="translate(362.318841, 217.041801) rotate(-90.000000) translate(-362.318841, -217.041801) translate(289.855072, 144.694534)">
+                                        <rect id="l21" data-group="vertical-1b" class="vertical-1b texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l22" data-group="vertical-2b" class="vertical-2b texturefill" fill="#d2d2d2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l23" data-group="vertical-3b" class="vertical-3b texturefill" fill="#b2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l24" data-group="vertical-4b" class="vertical-4b texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l25" data-group="vertical-5b" class="vertical-5b texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l06-group" transform="translate(434.782609, 144.694534)">
+                                        <rect id="l26" data-group="horizontal-1a" class="horizontal-1a texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l27" data-group="horizontal-2a" class="horizontal-2a texturefill" fill="#D2D2D2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l28" data-group="horizontal-3a" class="horizontal-3a texturefill" fill="#B2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l29" data-group="horizontal-4a" class="horizontal-4a texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l30" data-group="horizontal-5a" class="horizontal-5a texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l07-group" transform="translate(507.246377, 72.347267) rotate(-90.000000) translate(-507.246377, -72.347267) translate(434.782609, 0.000000)">
+                                        <rect id="l31" data-group="vertical-1b" class="vertical-1b texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l32" data-group="vertical-2b" class="vertical-2b texturefill" fill="#d2d2d2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l33" data-group="vertical-3b" class="vertical-3b texturefill" fill="#b2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l34" data-group="vertical-4b" class="vertical-4b texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l35" data-group="vertical-5b" class="vertical-5b texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l08-group" transform="translate(72.463768, 217.041801) rotate(-90.000000) translate(-72.463768, -217.041801) translate(0.000000, 144.694534)">
+                                        <rect id="l36" data-group="vertical-1b" class="vertical-1b texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l37" data-group="vertical-2b" class="vertical-2b texturefill" fill="#d2d2d2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l38" data-group="vertical-3b" class="vertical-3b texturefill" fill="#b2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l39" data-group="vertical-4b" class="vertical-4b texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l40" data-group="vertical-5b" class="vertical-5b texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l09-group" transform="translate(0.000000, 289.389068)">
+                                        <rect id="l41" data-group="horizontal-1a" class="horizontal-1a texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l42" data-group="horizontal-2a" class="horizontal-2a texturefill" fill="#D2D2D2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l43" data-group="horizontal-3a" class="horizontal-3a texturefill" fill="#B2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l44" data-group="horizontal-4a" class="horizontal-4a texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l45" data-group="horizontal-5a" class="horizontal-5a texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l10-group" transform="translate(217.391304, 361.736334) rotate(-90.000000) translate(-217.391304, -361.736334) translate(144.927536, 289.389068)">
+                                        <rect id="l46" data-group="vertical-1b" class="vertical-1b texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l47" data-group="vertical-2b" class="vertical-2b texturefill" fill="#d2d2d2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l48" data-group="vertical-3b" class="vertical-3b texturefill" fill="#b2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l49" data-group="vertical-4b" class="vertical-4b texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l50" data-group="vertical-5b" class="vertical-5b texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l11-group" transform="translate(289.855072, 289.389068)">
+                                        <rect id="l51" data-group="horizontal-1a" class="horizontal-1a texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l52" data-group="horizontal-2a" class="horizontal-2a texturefill" fill="#D2D2D2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l53" data-group="horizontal-3a" class="horizontal-3a texturefill" fill="#B2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l54" data-group="horizontal-4a" class="horizontal-4a texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l55" data-group="horizontal-5a" class="horizontal-5a texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l12-group" transform="translate(144.927536, 434.083601)">
+                                        <rect id="l56" data-group="horizontal-1a" class="horizontal-1a texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l57" data-group="horizontal-2a" class="horizontal-2a texturefill" fill="#D2D2D2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l58" data-group="horizontal-3a" class="horizontal-3a texturefill" fill="#B2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l59" data-group="horizontal-4a" class="horizontal-4a texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l60" data-group="horizontal-5a" class="horizontal-5a texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l13-group" transform="translate(362.318841, 506.430868) rotate(-90.000000) translate(-362.318841, -506.430868) translate(289.855072, 434.083601)">
+                                        <rect id="l61" data-group="vertical-1b" class="vertical-1b texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l62" data-group="vertical-2b" class="vertical-2b texturefill" fill="#d2d2d2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l63" data-group="vertical-3b" class="vertical-3b texturefill" fill="#b2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l64" data-group="vertical-4b" class="vertical-4b texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l65" data-group="vertical-5b" class="vertical-5b texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l14-group" transform="translate(434.782609, 434.083601)">
+                                        <rect id="l66" data-group="horizontal-1a" class="horizontal-1a texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l67" data-group="horizontal-2a" class="horizontal-2a texturefill" fill="#D2D2D2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l68" data-group="horizontal-3a" class="horizontal-3a texturefill" fill="#B2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l69" data-group="horizontal-4a" class="horizontal-4a texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l70" data-group="horizontal-5a" class="horizontal-5a texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="l15-group" transform="translate(507.246377, 361.736334) rotate(-90.000000) translate(-507.246377, -361.736334) translate(434.782609, 289.389068)">
+                                        <rect id="l71" data-group="vertical-1b" class="vertical-1b texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l72" data-group="vertical-2b" class="vertical-2b texturefill" fill="#d2d2d2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l73" data-group="vertical-3b" class="vertical-3b texturefill" fill="#b2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l74" data-group="vertical-4b" class="vertical-4b texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l75" data-group="vertical-5b" class="vertical-5b texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    <g id="Group-Copy-8" transform="translate(72.463768, 506.430868) rotate(-90.000000) translate(-72.463768, -506.430868) translate(0.000000, 434.083601)">
+                                        <rect id="l76" data-group="vertical-1b" class="vertical-1b texturefill" fill="#EFEFEF" x="0" y="0" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l77" data-group="vertical-2b" class="vertical-2b texturefill" fill="#d2d2d2" x="0" y="28.9389068" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l78" data-group="vertical-3b" class="vertical-3b texturefill" fill="#b2b2b2" x="0" y="57.8778135" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l79" data-group="vertical-4b" class="vertical-4b texturefill" fill="#8f8f8f" x="0" y="86.8167203" width="144.927536" height="28.9389068"></rect>
+                                        <rect id="l80" data-group="vertical-5b" class="vertical-5b texturefill" fill="#4B4B4B" x="0" y="115.755627" width="144.927536" height="28.9389068"></rect>
+                                    </g>
+                                    
+                                </svg>
+
+                                <svg id="preview-pinwheels" class="previews hidden" width="602px" height="602px" viewBox="0 0 602 602" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <pattern id="previewpinwheels001" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/001.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels002" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/002.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels003" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/003.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels004" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/004.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels005" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/005.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels006" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/006.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels007" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/007.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels008" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/008.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels009" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/009.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels010" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/010.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels011" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/011.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels012" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/012.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels013" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/013.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels014" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/014.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels015" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/015.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels016" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/016.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels017" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/017.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels018" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/018.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels019" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/019.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels020" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/020.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels021" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/021.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels022" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/022.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels023" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/023.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels024" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/024.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels025" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/025.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels026" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/026.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels027" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/027.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels028" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/028.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels029" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/029.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewpinwheels030" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/030.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                    </defs>
+
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Group-4" transform="translate(1.000000, 1.000000)">
+                                            <rect id="background" stroke="#979797" fill="#FFFFFF" x="0" y="0" width="600" height="600"></rect>
+                                            <g id="square01" transform="translate(113.000000, 111.500000) scale(1, -1) rotate(-90.000000) translate(-113.000000, -111.500000) translate(32.500000, 31.500000)">
+                                                <polygon id="1-top-02a" data-group="1-top-02a" fill="#F0F0F0" transform="translate(40.603960, 39.603960) rotate(90.000000) translate(-40.603960, -39.603960) " points="80.2079208 -7.10542736e-15 80.2079208 79.2079208 1 79.2079208"></polygon>
+                                                <polygon id="1-top-01a" data-group="1-top-01a" fill="#D8D8D8" transform="translate(40.603960, 39.603960) scale(-1, -1) rotate(90.000000) translate(-40.603960, -39.603960) " points="80.2079208 2.42504317e-17 80.2079208 79.2079208 1 79.2079208"></polygon>
+                                                <polygon id="1-bot-02a" data-group="1-bot-02a" fill="#D8D8D8" transform="translate(119.811881, 39.603960) scale(-1, 1) rotate(90.000000) translate(-119.811881, -39.603960) " points="159.415842 -1.78020415e-14 159.415842 79.2079208 80.2079208 79.2079208"></polygon>
+                                                <polygon id="1-bot-01a" data-group="1-bot-01a" fill="#F0F0F0" transform="translate(119.811881, 39.603960) scale(1, -1) rotate(90.000000) translate(-119.811881, -39.603960) " points="159.415842 -1.84054518e-14 159.415842 79.2079208 80.2079208 79.2079208"></polygon>
+                                                <polygon id="1-bot-02b" data-group="1-bot-02b" fill="#D8D8D8" transform="translate(119.811881, 118.811881) rotate(90.000000) translate(-119.811881, -118.811881) " points="159.415842 79.2079208 159.415842 158.415842 80.2079208 158.415842"></polygon>
+                                                <polygon id="1-bot-01b" data-group="1-bot-01b" fill="#F0F0F0" transform="translate(119.811881, 118.811881) scale(-1, -1) rotate(90.000000) translate(-119.811881, -118.811881) " points="159.415842 79.2079208 159.415842 158.415842 80.2079208 158.415842"></polygon>
+                                                <polygon id="1-top-02b" data-group="1-top-02b" fill="#F0F0F0" transform="translate(40.603960, 118.811881) scale(-1, 1) rotate(90.000000) translate(-40.603960, -118.811881) " points="80.2079208 79.2079208 80.2079208 158.415842 1 158.415842"></polygon>
+                                                <polygon id="1-top-01b" data-group="1-top-01b" fill="#D8D8D8" transform="translate(40.603960, 118.811881) scale(1, -1) rotate(90.000000) translate(-40.603960, -118.811881) " points="80.2079208 79.2079208 80.2079208 158.415842 1 158.415842"></polygon>
+                                            </g>
+                                            <g id="square02" transform="translate(299.500000, 300.500000) scale(1, -1) rotate(-90.000000) translate(-299.500000, -300.500000) translate(220.000000, 221.000000)">
+                                                <polygon id="1-top-02a" data-group="1-top-02a" fill="#F0F0F0" transform="translate(39.603960, 39.603960) rotate(90.000000) translate(-39.603960, -39.603960) " points="79.2079208 0 79.2079208 79.2079208 3.90798505e-14 79.2079208"></polygon>
+                                                <polygon id="1-top-01a" data-group="1-top-01a" fill="#D8D8D8" transform="translate(39.603960, 39.603960) scale(-1, -1) rotate(90.000000) translate(-39.603960, -39.603960) " points="79.2079208 2.42504317e-17 79.2079208 79.2079208 3.90798505e-14 79.2079208"></polygon>
+                                                <polygon id="1-bot-02a" data-group="1-bot-02a" fill="#D8D8D8" transform="translate(118.811881, 39.603960) scale(-1, 1) rotate(90.000000) translate(-118.811881, -39.603960) " points="158.415842 1.77250953e-14 158.415842 79.2079208 79.2079208 79.2079208"></polygon>
+                                                <polygon id="1-bot-01a" data-group="1-bot-01a" fill="#F0F0F0" transform="translate(118.811881, 39.603960) scale(1, -1) rotate(90.000000) translate(-118.811881, -39.603960) " points="158.415842 1.00162577e-14 158.415842 79.2079208 79.2079208 79.2079208"></polygon>
+                                                <polygon id="1-bot-02b" data-group="1-bot-02b" fill="#D8D8D8" transform="translate(118.811881, 118.811881) rotate(90.000000) translate(-118.811881, -118.811881) " points="158.415842 79.2079208 158.415842 158.415842 79.2079208 158.415842"></polygon>
+                                                <polygon id="1-bot-01b" data-group="1-bot-01b" fill="#F0F0F0" transform="translate(118.811881, 118.811881) scale(-1, -1) rotate(90.000000) translate(-118.811881, -118.811881) " points="158.415842 79.2079208 158.415842 158.415842 79.2079208 158.415842"></polygon>
+                                                <polygon id="1-top-02b" data-group="1-top-02b" fill="#F0F0F0" transform="translate(39.603960, 118.811881) scale(-1, 1) rotate(90.000000) translate(-39.603960, -118.811881) " points="79.2079208 79.2079208 79.2079208 158.415842 2.51503988e-14 158.415842"></polygon>
+                                                <polygon id="1-top-01b" data-group="1-top-01b" fill="#D8D8D8" transform="translate(39.603960, 118.811881) scale(1, -1) rotate(90.000000) translate(-39.603960, -118.811881) " points="79.2079208 79.2079208 79.2079208 158.415842 2.48689958e-14 158.415842"></polygon>
+                                            </g>
+                                            <g id="square03" transform="translate(487.000000, 111.500000) scale(1, -1) rotate(-90.000000) translate(-487.000000, -111.500000) translate(406.500000, 31.500000)">
+                                                <polygon id="1-top-02a" data-group="1-top-02a" fill="#F0F0F0" transform="translate(40.603960, 39.603960) rotate(90.000000) translate(-40.603960, -39.603960) " points="80.2079208 -7.10542736e-15 80.2079208 79.2079208 1 79.2079208"></polygon>
+                                                <polygon id="1-top-01a" data-group="1-top-01a" fill="#D8D8D8" transform="translate(40.603960, 39.603960) scale(-1, -1) rotate(90.000000) translate(-40.603960, -39.603960) " points="80.2079208 2.42504317e-17 80.2079208 79.2079208 1 79.2079208"></polygon>
+                                                <polygon id="1-bot-02a" data-group="1-bot-02a" fill="#D8D8D8" transform="translate(119.811881, 39.603960) scale(-1, 1) rotate(90.000000) translate(-119.811881, -39.603960) " points="159.415842 -1.78020415e-14 159.415842 79.2079208 80.2079208 79.2079208"></polygon>
+                                                <polygon id="1-bot-01a" data-group="1-bot-01a" fill="#F0F0F0" transform="translate(119.811881, 39.603960) scale(1, -1) rotate(90.000000) translate(-119.811881, -39.603960) " points="159.415842 -1.84054518e-14 159.415842 79.2079208 80.2079208 79.2079208"></polygon>
+                                                <polygon id="1-bot-02b" data-group="1-bot-02b" fill="#D8D8D8" transform="translate(119.811881, 118.811881) rotate(90.000000) translate(-119.811881, -118.811881) " points="159.415842 79.2079208 159.415842 158.415842 80.2079208 158.415842"></polygon>
+                                                <polygon id="1-bot-01b" data-group="1-bot-01b" fill="#F0F0F0" transform="translate(119.811881, 118.811881) scale(-1, -1) rotate(90.000000) translate(-119.811881, -118.811881) " points="159.415842 79.2079208 159.415842 158.415842 80.2079208 158.415842"></polygon>
+                                                <polygon id="1-top-02b" data-group="1-top-02b" fill="#F0F0F0" transform="translate(40.603960, 118.811881) scale(-1, 1) rotate(90.000000) translate(-40.603960, -118.811881) " points="80.2079208 79.2079208 80.2079208 158.415842 1 158.415842"></polygon>
+                                                <polygon id="1-top-01b" data-group="1-top-01b" fill="#D8D8D8" transform="translate(40.603960, 118.811881) scale(1, -1) rotate(90.000000) translate(-40.603960, -118.811881) " points="80.2079208 79.2079208 80.2079208 158.415842 1 158.415842"></polygon>
+                                            </g>
+                                            <g id="square04" transform="translate(299.500000, 111.500000) scale(1, -1) rotate(-90.000000) translate(-299.500000, -111.500000) translate(220.000000, 32.000000)">
+                                                <polygon id="2-top-02a" data-group="2-top-02a" fill="#F0F0F0" transform="translate(39.603960, 39.603960) rotate(90.000000) translate(-39.603960, -39.603960) " points="79.2079208 0 79.2079208 79.2079208 0 79.2079208"></polygon>
+                                                <polygon id="2-top-01a" data-group="2-top-01a" fill="#D8D8D8" transform="translate(39.603960, 39.603960) scale(-1, -1) rotate(90.000000) translate(-39.603960, -39.603960) " points="79.2079208 2.42504317e-17 79.2079208 79.2079208 0 79.2079208"></polygon>
+                                                <polygon id="2-bot-02a" data-group="2-bot-02a" fill="#D8D8D8" transform="translate(118.811881, 39.603960) scale(-1, 1) rotate(90.000000) translate(-118.811881, -39.603960) " points="158.415842 1.77250953e-14 158.415842 79.2079208 79.2079208 79.2079208"></polygon>
+                                                <polygon id="2-bot-01a" data-group="2-bot-01a" fill="#F0F0F0" transform="translate(118.811881, 39.603960) scale(1, -1) rotate(90.000000) translate(-118.811881, -39.603960) " points="158.415842 1.00162577e-14 158.415842 79.2079208 79.2079208 79.2079208"></polygon>
+                                                <polygon id="2-bot-02b" data-group="2-bot-02b" fill="#D8D8D8" transform="translate(118.811881, 118.811881) rotate(90.000000) translate(-118.811881, -118.811881) " points="158.415842 79.2079208 158.415842 158.415842 79.2079208 158.415842"></polygon>
+                                                <polygon id="2-bot-01b" data-group="2-bot-01b" fill="#F0F0F0" transform="translate(118.811881, 118.811881) scale(-1, -1) rotate(90.000000) translate(-118.811881, -118.811881) " points="158.415842 79.2079208 158.415842 158.415842 79.2079208 158.415842"></polygon>
+                                                <polygon id="2-top-02b" data-group="2-top-02b" fill="#F0F0F0" transform="translate(39.603960, 118.811881) scale(-1, 1) rotate(90.000000) translate(-39.603960, -118.811881) " points="79.2079208 79.2079208 79.2079208 158.415842 2.81403064e-16 158.415842"></polygon>
+                                                <polygon id="2-top-01b" data-group="2-top-01b" fill="#D8D8D8" transform="translate(39.603960, 118.811881) scale(1, -1) rotate(90.000000) translate(-39.603960, -118.811881) " points="79.2079208 79.2079208 79.2079208 158.415842 0 158.415842"></polygon>
+                                            </g>
+                                            <g id="square05" transform="translate(113.000000, 489.500000) scale(1, -1) rotate(-90.000000) translate(-113.000000, -489.500000) translate(32.500000, 409.500000)">
+                                                <polygon id="1-top-02a" data-group="1-top-02a" fill="#F0F0F0" transform="translate(40.603960, 39.603960) rotate(90.000000) translate(-40.603960, -39.603960) " points="80.2079208 -7.10542736e-15 80.2079208 79.2079208 1 79.2079208"></polygon>
+                                                <polygon id="1-top-01a" data-group="1-top-01a" fill="#D8D8D8" transform="translate(40.603960, 39.603960) scale(-1, -1) rotate(90.000000) translate(-40.603960, -39.603960) " points="80.2079208 2.42504317e-17 80.2079208 79.2079208 1 79.2079208"></polygon>
+                                                <polygon id="1-bot-02a" data-group="1-bot-02a" fill="#D8D8D8" transform="translate(119.811881, 39.603960) scale(-1, 1) rotate(90.000000) translate(-119.811881, -39.603960) " points="159.415842 -1.78020415e-14 159.415842 79.2079208 80.2079208 79.2079208"></polygon>
+                                                <polygon id="1-bot-01a" data-group="1-bot-01a" fill="#F0F0F0" transform="translate(119.811881, 39.603960) scale(1, -1) rotate(90.000000) translate(-119.811881, -39.603960) " points="159.415842 -1.84054518e-14 159.415842 79.2079208 80.2079208 79.2079208"></polygon>
+                                                <polygon id="1-bot-02b" data-group="1-bot-02b" fill="#D8D8D8" transform="translate(119.811881, 118.811881) rotate(90.000000) translate(-119.811881, -118.811881) " points="159.415842 79.2079208 159.415842 158.415842 80.2079208 158.415842"></polygon>
+                                                <polygon id="1-bot-01b" data-group="1-bot-01b" fill="#F0F0F0" transform="translate(119.811881, 118.811881) scale(-1, -1) rotate(90.000000) translate(-119.811881, -118.811881) " points="159.415842 79.2079208 159.415842 158.415842 80.2079208 158.415842"></polygon>
+                                                <polygon id="1-top-02b" data-group="1-top-02b" fill="#F0F0F0" transform="translate(40.603960, 118.811881) scale(-1, 1) rotate(90.000000) translate(-40.603960, -118.811881) " points="80.2079208 79.2079208 80.2079208 158.415842 1 158.415842"></polygon>
+                                                <polygon id="1-top-01b" data-group="1-top-01b" fill="#D8D8D8" transform="translate(40.603960, 118.811881) scale(1, -1) rotate(90.000000) translate(-40.603960, -118.811881) " points="80.2079208 79.2079208 80.2079208 158.415842 1 158.415842"></polygon>
+                                            </g>
+                                            <g id="square06" transform="translate(487.000000, 489.500000) scale(1, -1) rotate(-90.000000) translate(-487.000000, -489.500000) translate(406.500000, 409.500000)">
+                                                <polygon id="1-top-02a" data-group="1-top-02a" fill="#F0F0F0" transform="translate(40.603960, 39.603960) rotate(90.000000) translate(-40.603960, -39.603960) " points="80.2079208 -7.10542736e-15 80.2079208 79.2079208 1 79.2079208"></polygon>
+                                                <polygon id="1-top-01a" data-group="1-top-01a" fill="#D8D8D8" transform="translate(40.603960, 39.603960) scale(-1, -1) rotate(90.000000) translate(-40.603960, -39.603960) " points="80.2079208 2.42504317e-17 80.2079208 79.2079208 1 79.2079208"></polygon>
+                                                <polygon id="1-bot-02a" data-group="1-bot-02a" fill="#D8D8D8" transform="translate(119.811881, 39.603960) scale(-1, 1) rotate(90.000000) translate(-119.811881, -39.603960) " points="159.415842 -1.78020415e-14 159.415842 79.2079208 80.2079208 79.2079208"></polygon>
+                                                <polygon id="1-bot-01a" data-group="1-bot-01a" fill="#F0F0F0" transform="translate(119.811881, 39.603960) scale(1, -1) rotate(90.000000) translate(-119.811881, -39.603960) " points="159.415842 -1.84054518e-14 159.415842 79.2079208 80.2079208 79.2079208"></polygon>
+                                                <polygon id="1-bot-02b" data-group="1-bot-02b" fill="#D8D8D8" transform="translate(119.811881, 118.811881) rotate(90.000000) translate(-119.811881, -118.811881) " points="159.415842 79.2079208 159.415842 158.415842 80.2079208 158.415842"></polygon>
+                                                <polygon id="1-bot-01b" data-group="1-bot-01b" fill="#F0F0F0" transform="translate(119.811881, 118.811881) scale(-1, -1) rotate(90.000000) translate(-119.811881, -118.811881) " points="159.415842 79.2079208 159.415842 158.415842 80.2079208 158.415842"></polygon>
+                                                <polygon id="1-top-02b" data-group="1-top-02b" fill="#F0F0F0" transform="translate(40.603960, 118.811881) scale(-1, 1) rotate(90.000000) translate(-40.603960, -118.811881) " points="80.2079208 79.2079208 80.2079208 158.415842 1 158.415842"></polygon>
+                                                <polygon id="1-top-01b" data-group="1-top-01b" fill="#D8D8D8" transform="translate(40.603960, 118.811881) scale(1, -1) rotate(90.000000) translate(-40.603960, -118.811881) " points="80.2079208 79.2079208 80.2079208 158.415842 1 158.415842"></polygon>
+                                            </g>
+                                            <g id="square07" transform="translate(299.500000, 489.500000) scale(1, -1) rotate(-90.000000) translate(-299.500000, -489.500000) translate(220.000000, 410.000000)">
+                                                <polygon id="2-top-02a" data-group="2-top-02a" fill="#F0F0F0" transform="translate(39.603960, 39.603960) rotate(90.000000) translate(-39.603960, -39.603960) " points="79.2079208 0 79.2079208 79.2079208 0 79.2079208"></polygon>
+                                                <polygon id="2-top-01a" data-group="2-top-01a" fill="#D8D8D8" transform="translate(39.603960, 39.603960) scale(-1, -1) rotate(90.000000) translate(-39.603960, -39.603960) " points="79.2079208 2.42504317e-17 79.2079208 79.2079208 0 79.2079208"></polygon>
+                                                <polygon id="2-bot-02a" data-group="2-bot-02a" fill="#D8D8D8" transform="translate(118.811881, 39.603960) scale(-1, 1) rotate(90.000000) translate(-118.811881, -39.603960) " points="158.415842 1.77250953e-14 158.415842 79.2079208 79.2079208 79.2079208"></polygon>
+                                                <polygon id="2-bot-01a" data-group="2-bot-01a" fill="#F0F0F0" transform="translate(118.811881, 39.603960) scale(1, -1) rotate(90.000000) translate(-118.811881, -39.603960) " points="158.415842 1.00162577e-14 158.415842 79.2079208 79.2079208 79.2079208"></polygon>
+                                                <polygon id="2-bot-02b" data-group="2-bot-02b" fill="#D8D8D8" transform="translate(118.811881, 118.811881) rotate(90.000000) translate(-118.811881, -118.811881) " points="158.415842 79.2079208 158.415842 158.415842 79.2079208 158.415842"></polygon>
+                                                <polygon id="2-bot-01b" data-group="2-bot-01b" fill="#F0F0F0" transform="translate(118.811881, 118.811881) scale(-1, -1) rotate(90.000000) translate(-118.811881, -118.811881) " points="158.415842 79.2079208 158.415842 158.415842 79.2079208 158.415842"></polygon>
+                                                <polygon id="2-top-02b" data-group="2-top-02b" fill="#F0F0F0" transform="translate(39.603960, 118.811881) scale(-1, 1) rotate(90.000000) translate(-39.603960, -118.811881) " points="79.2079208 79.2079208 79.2079208 158.415842 2.81403064e-16 158.415842"></polygon>
+                                                <polygon id="2-top-01b" data-group="2-top-01b" fill="#D8D8D8" transform="translate(39.603960, 118.811881) scale(1, -1) rotate(90.000000) translate(-39.603960, -118.811881) " points="79.2079208 79.2079208 79.2079208 158.415842 0 158.415842"></polygon>
+                                            </g>
+                                            <g id="square08" transform="translate(113.000000, 300.500000) scale(1, -1) rotate(-90.000000) translate(-113.000000, -300.500000) translate(32.500000, 220.500000)">
+                                                <polygon id="2-top-02a" data-group="2-top-02a" fill="#F0F0F0" transform="translate(40.603960, 39.603960) rotate(90.000000) translate(-40.603960, -39.603960) " points="80.2079208 -7.10542736e-15 80.2079208 79.2079208 1 79.2079208"></polygon>
+                                                <polygon id="2-top-01a" data-group="2-top-01a" fill="#D8D8D8" transform="translate(40.603960, 39.603960) scale(-1, -1) rotate(90.000000) translate(-40.603960, -39.603960) " points="80.2079208 2.42504317e-17 80.2079208 79.2079208 1 79.2079208"></polygon>
+                                                <polygon id="2-bot-02a" data-group="2-bot-02a" fill="#D8D8D8" transform="translate(119.811881, 39.603960) scale(-1, 1) rotate(90.000000) translate(-119.811881, -39.603960) " points="159.415842 -1.78020415e-14 159.415842 79.2079208 80.2079208 79.2079208"></polygon>
+                                                <polygon id="2-bot-01a" data-group="2-bot-01a" fill="#F0F0F0" transform="translate(119.811881, 39.603960) scale(1, -1) rotate(90.000000) translate(-119.811881, -39.603960) " points="159.415842 -1.84054518e-14 159.415842 79.2079208 80.2079208 79.2079208"></polygon>
+                                                <polygon id="2-bot-02b" data-group="2-bot-02b" fill="#D8D8D8" transform="translate(119.811881, 118.811881) rotate(90.000000) translate(-119.811881, -118.811881) " points="159.415842 79.2079208 159.415842 158.415842 80.2079208 158.415842"></polygon>
+                                                <polygon id="2-bot-01b" data-group="2-bot-01b" fill="#F0F0F0" transform="translate(119.811881, 118.811881) scale(-1, -1) rotate(90.000000) translate(-119.811881, -118.811881) " points="159.415842 79.2079208 159.415842 158.415842 80.2079208 158.415842"></polygon>
+                                                <polygon id="2-top-02b" data-group="2-top-02b" fill="#F0F0F0" transform="translate(40.603960, 118.811881) scale(-1, 1) rotate(90.000000) translate(-40.603960, -118.811881) " points="80.2079208 79.2079208 80.2079208 158.415842 1 158.415842"></polygon>
+                                                <polygon id="2-top-01b" data-group="2-top-01b" fill="#D8D8D8" transform="translate(40.603960, 118.811881) scale(1, -1) rotate(90.000000) translate(-40.603960, -118.811881) " points="80.2079208 79.2079208 80.2079208 158.415842 1 158.415842"></polygon>
+                                            </g>
+                                            <g id="square09" transform="translate(487.000000, 300.500000) scale(1, -1) rotate(-90.000000) translate(-487.000000, -300.500000) translate(406.500000, 220.500000)">
+                                                <polygon id="2-top-02a" data-group="2-top-02a" fill="#F0F0F0" transform="translate(40.603960, 39.603960) rotate(90.000000) translate(-40.603960, -39.603960) " points="80.2079208 -7.10542736e-15 80.2079208 79.2079208 1 79.2079208"></polygon>
+                                                <polygon id="2-top-01a" data-group="2-top-01a" fill="#D8D8D8" transform="translate(40.603960, 39.603960) scale(-1, -1) rotate(90.000000) translate(-40.603960, -39.603960) " points="80.2079208 2.42504317e-17 80.2079208 79.2079208 1 79.2079208"></polygon>
+                                                <polygon id="2-bot-02a" data-group="2-bot-02a" fill="#D8D8D8" transform="translate(119.811881, 39.603960) scale(-1, 1) rotate(90.000000) translate(-119.811881, -39.603960) " points="159.415842 -1.78020415e-14 159.415842 79.2079208 80.2079208 79.2079208"></polygon>
+                                                <polygon id="2-bot-01a" data-group="2-bot-01a" fill="#F0F0F0" transform="translate(119.811881, 39.603960) scale(1, -1) rotate(90.000000) translate(-119.811881, -39.603960) " points="159.415842 -1.84054518e-14 159.415842 79.2079208 80.2079208 79.2079208"></polygon>
+                                                <polygon id="2-bot-02b" data-group="2-bot-02b" fill="#D8D8D8" transform="translate(119.811881, 118.811881) rotate(90.000000) translate(-119.811881, -118.811881) " points="159.415842 79.2079208 159.415842 158.415842 80.2079208 158.415842"></polygon>
+                                                <polygon id="2-bot-01b" data-group="2-bot-01b" fill="#F0F0F0" transform="translate(119.811881, 118.811881) scale(-1, -1) rotate(90.000000) translate(-119.811881, -118.811881) " points="159.415842 79.2079208 159.415842 158.415842 80.2079208 158.415842"></polygon>
+                                                <polygon id="2-top-02b" data-group="2-top-02b" fill="#F0F0F0" transform="translate(40.603960, 118.811881) scale(-1, 1) rotate(90.000000) translate(-40.603960, -118.811881) " points="80.2079208 79.2079208 80.2079208 158.415842 1 158.415842"></polygon>
+                                                <polygon id="2-top-01b" data-group="2-top-01b" fill="#D8D8D8" transform="translate(40.603960, 118.811881) scale(1, -1) rotate(90.000000) translate(-40.603960, -118.811881) " points="80.2079208 79.2079208 80.2079208 158.415842 1 158.415842"></polygon>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+
+                                <svg id="preview-squares" class="previews hidden" width="602px" height="602px" viewBox="0 0 602 602" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                                    <defs>
+                                        <pattern id="previewsquares001" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/001.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares002" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/002.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares003" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/003.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares004" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/004.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares005" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/005.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares006" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/006.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares007" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/007.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares008" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/008.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares009" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/009.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares010" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/010.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares011" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/011.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares012" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/012.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares013" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/013.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares014" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/014.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares015" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/015.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares016" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/016.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares017" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/017.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares018" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/018.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares019" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/019.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares020" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/020.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares021" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/021.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares022" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/022.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares023" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/023.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares024" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/024.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares025" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/025.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares026" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/026.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares027" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/027.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares028" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/028.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares029" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/029.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                        <pattern id="previewsquares030" patternUnits="userSpaceOnUse" width="100" height="100">
+                                            <image href="https://ildikotuck.github.io/images/textures/030.jpg" x="0" y="0" width="100" height="100" />
+                                        </pattern>
+                                    </defs>
+                                    
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="squares-preview" transform="translate(1.000000, 1.000000)">
+                                                <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0" y="0" width="600" height="600"></rect>
+                                                <g id="square16" transform="translate(454.000000, 450.000000)">
+                                                    <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                    <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                </g>
+                                                <g id="square15" transform="translate(310.000000, 450.000000)">
+                                                    <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                    <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                </g>
+                                                <g id="square14" transform="translate(166.000000, 450.000000)">
+                                                    <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                    <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                </g>
+                                                <g id="square13" transform="translate(22.000000, 450.000000)">
+                                                    <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                    <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                </g>
+                                                <g id="square12" transform="translate(454.000000, 306.000000)">
+                                                    <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                    <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                </g>
+                                                <g id="square11" transform="translate(310.000000, 306.000000)">
+                                                    <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                    <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                </g>
+                                                <g id="square10" transform="translate(166.000000, 306.000000)">
+                                                    <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                    <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                </g>
+                                                <g id="square9" transform="translate(22.000000, 306.000000)">
+                                                    <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                    <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                </g>
+                                                <g id="square8" transform="translate(454.000000, 164.000000)">
+                                                    <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                    <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                </g>
+                                                <g id="square7" transform="translate(310.000000, 164.000000)">
+                                                    <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                    <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                </g>
+                                                <g id="square6" transform="translate(166.000000, 164.000000)">
+                                                    <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                    <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                </g>
+                                                <g id="square5" transform="translate(22.000000, 164.000000)">
+                                                    <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                    <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                </g>
+                                                <g id="square4" transform="translate(454.000000, 20.000000)">
+                                                    <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                    <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                </g>
+                                                <g id="square3" transform="translate(310.000000, 20.000000)">
+                                                    <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                    <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                </g>
+                                                <g id="square2" transform="translate(166.000000, 20.000000)">
+                                                    <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                    <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                </g>
+                                                <g id="square1" transform="translate(22.000000, 20.000000)">
+                                                    <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                                                    <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                                                    <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                                                    <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                                                    <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+
+                                <div class="col-md-12 buttons">
+                                    <a href="#" class="button btn btn-success save">Save Quilt</a>
+    
+                                    <a class="back btn btn-light" href="#">Back to Edit</a>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step step-four">
+                    <div class="col-md-12">
+                        <h4 class="accordion-header accordion-closed">4. Additional Information</h4>
                         <div class="col-md-12">
                             <div class="accordion-content">
                                 <div class="form">
@@ -509,7 +1152,7 @@
                                         <label for="comments">Comments:</label>
                                         <textarea id="comments" name="comments"></textarea> 
 
-                                        <div class="submit-button">
+                                        <div class="submit">
                                             <a href="#" class="button btn btn-success">Submit</a>   
                                         </div>
                                     </form>
@@ -524,8 +1167,6 @@
 
         </section>
        
-
-
         <section class="faq text-center">
             <div class="container">
                 

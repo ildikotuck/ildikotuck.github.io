@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="preview-squares" class="previews hidden" width="602px" height="602px" viewBox="0 0 602 602" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<defs>
+    <pattern id="previewsquares001" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/001.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares002" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/002.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares003" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/003.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares004" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/004.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares005" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/005.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares006" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/006.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares007" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/007.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares008" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/008.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares009" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/009.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares010" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/010.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares011" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/011.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares012" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/012.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares013" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/013.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares014" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/014.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares015" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/015.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares016" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/016.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares017" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/017.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares018" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/018.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares019" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/019.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares020" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/020.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares021" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/021.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares022" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/022.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares023" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/023.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares024" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/024.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares025" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/025.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares026" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/026.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares027" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/027.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares028" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/028.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares029" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/029.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="previewsquares030" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/030.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+</defs>
+
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="squares-preview" transform="translate(1.000000, 1.000000)">
+            <rect id="Rectangle" stroke="#979797" fill="#FFFFFF" x="0" y="0" width="600" height="600"></rect>
+            <g id="square16" transform="translate(454.000000, 450.000000)">
+                <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+            </g>
+            <g id="square15" transform="translate(310.000000, 450.000000)">
+                <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+            </g>
+            <g id="square14" transform="translate(166.000000, 450.000000)">
+                <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+            </g>
+            <g id="square13" transform="translate(22.000000, 450.000000)">
+                <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+            </g>
+            <g id="square12" transform="translate(454.000000, 306.000000)">
+                <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+            </g>
+            <g id="square11" transform="translate(310.000000, 306.000000)">
+                <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+            </g>
+            <g id="square10" transform="translate(166.000000, 306.000000)">
+                <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+            </g>
+            <g id="square9" transform="translate(22.000000, 306.000000)">
+                <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+            </g>
+            <g id="square8" transform="translate(454.000000, 164.000000)">
+                <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+            </g>
+            <g id="square7" transform="translate(310.000000, 164.000000)">
+                <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+            </g>
+            <g id="square6" transform="translate(166.000000, 164.000000)">
+                <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+            </g>
+            <g id="square5" transform="translate(22.000000, 164.000000)">
+                <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+            </g>
+            <g id="square4" transform="translate(454.000000, 20.000000)">
+                <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+            </g>
+            <g id="square3" transform="translate(310.000000, 20.000000)">
+                <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+            </g>
+            <g id="square2" transform="translate(166.000000, 20.000000)">
+                <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+                <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+            </g>
+            <g id="square1" transform="translate(22.000000, 20.000000)">
+                <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="128" height="128"></rect>
+                <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(32.203845, 63.999977) rotate(-45.000000) translate(-32.203845, -63.999977) " points="9.78342995 41.5795948 54.6242594 41.5795948 54.6242594 86.4203591 9.78342995 86.4203591"></polygon>
+                <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(63.999977, 32.203845) rotate(-45.000000) translate(-63.999977, -32.203845) " points="41.5795622 9.78346251 86.4203917 9.78346251 86.4203917 54.6242268 41.5795622 54.6242268"></polygon>
+                <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(95.796155, 64.000023) rotate(-45.000000) translate(-95.796155, -64.000023) " points="73.3757406 41.5796409 118.21657 41.5796409 118.21657 86.4204052 73.3757406 86.4204052"></polygon>
+                <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(64.000023, 95.796155) rotate(-45.000000) translate(-64.000023, -95.796155) " points="41.5796083 73.3757732 86.4204378 73.3757732 86.4204378 118.216537 41.5796083 118.216537"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

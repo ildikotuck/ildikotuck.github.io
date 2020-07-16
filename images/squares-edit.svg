@@ -1,0 +1,118 @@
+<svg id="edit-squares" class="svgs" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 888 445">  
+<defs>
+    <pattern id="squares001" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/001.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares002" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/002.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares003" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/003.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares004" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/004.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares005" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/005.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares006" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/006.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares007" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/007.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares008" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/008.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares009" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/009.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares010" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/010.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares011" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/011.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares012" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/012.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares013" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/013.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares014" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/014.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares015" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/015.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares016" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/016.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares017" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/017.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares018" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/018.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares019" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/019.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares020" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/020.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares021" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/021.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares022" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/022.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares023" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/023.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares024" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/024.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares025" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/025.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares026" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/026.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares027" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/027.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares028" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/028.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares029" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/029.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squares030" patternUnits="userSpaceOnUse" width="100" height="100">
+        <image href="https://ildikotuck.github.io/images/textures/030.jpg" x="0" y="0" width="100" height="100" />
+    </pattern>
+    <pattern id="squaresstripes" patternUnits="userSpaceOnUse" width="100" height="100"> 
+        <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAABlBMVEUAAAAAAAClZ7nPAAAAAnRSTlMAGovxNEIAAAAoSURBVDhPYxBEAgIMSkhAgcEFCTgwdCCBBoZRfaP6RvWN6hvVR5Y+APADQlQnmrINAAAAAElFTkSuQmCC"/> 
+    </pattern>
+
+</defs>
+
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="squares-edit" transform="translate(1.000000, 1.000000)">
+            <rect id="background" stroke="#979797" fill="#FFFFFF" x="0" y="0" width="600" height="300"></rect>
+            <g id="square2" transform="translate(314.000000, 19.000000)">
+                <rect id="2bg" data-group="2bg" fill="#D8D8D8" x="0" y="0" width="256" height="256"></rect>
+                <polygon id="2-l" data-group="2-l" fill="#959595" transform="translate(64.407578, 127.999954) rotate(-45.000000) translate(-64.407578, -127.999954) " points="19.5666703 83.1591111 109.248486 83.1591111 109.248486 172.840797 19.5666703 172.840797"></polygon>
+                <polygon id="2-b" data-group="2-b" fill="#EFEFEF" transform="translate(128.000046, 191.592311) rotate(-45.000000) translate(-128.000046, -191.592311) " points="83.1592166 146.751546 172.840876 146.751546 172.840876 236.433075 83.1592166 236.433075"></polygon>
+                <polygon id="2-r" data-group="2-r" fill="#959595" transform="translate(191.592311, 128.000046) rotate(-45.000000) translate(-191.592311, -128.000046) " points="146.751481 83.1592817 236.43314 83.1592817 236.43314 172.84081 146.751481 172.84081"></polygon>
+                <polygon id="2-t" data-group="2-t" fill="#EFEFEF" transform="translate(127.999954, 64.407689) rotate(-45.000000) translate(-127.999954, -64.407689) " points="83.1591245 19.566925 172.840783 19.566925 172.840783 109.248454 83.1591245 109.248454"></polygon>
+            </g>
+            <g id="square1" transform="translate(26.000000, 19.000000)">
+                <rect id="1bg" data-group="1bg" fill="#D8D8D8" x="0" y="0" width="256" height="256"></rect>
+                <polygon id="1-l" data-group="1-l" fill="#EFEFEF" transform="translate(64.407578, 127.999954) rotate(-45.000000) translate(-64.407578, -127.999954) " points="19.5666703 83.1591111 109.248486 83.1591111 109.248486 172.840797 19.5666703 172.840797"></polygon>
+                <polygon id="1-t" data-group="1-t" fill="#959595" transform="translate(127.999954, 64.407689) rotate(-45.000000) translate(-127.999954, -64.407689) " points="83.1591245 19.566925 172.840783 19.566925 172.840783 109.248454 83.1591245 109.248454"></polygon>
+                <polygon id="1-r" data-group="1-r" fill="#EFEFEF" transform="translate(191.592311, 128.000046) rotate(-45.000000) translate(-191.592311, -128.000046) " points="146.751481 83.1592817 236.43314 83.1592817 236.43314 172.84081 146.751481 172.84081"></polygon>
+                <polygon id="1-b" data-group="1-b" fill="#959595" transform="translate(128.000046, 191.592311) rotate(-45.000000) translate(-128.000046, -191.592311) " points="83.1592166 146.751546 172.840876 146.751546 172.840876 236.433075 83.1592166 236.433075"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
