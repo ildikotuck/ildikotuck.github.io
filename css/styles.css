@@ -561,7 +561,7 @@ textarea, input {
 
 @media (max-width:481px) {
     textarea, input {
-        width: 80%;
+        width: 100%;
     } 
 
 .next, .submit, .save, .back, .reset {
