@@ -50,7 +50,7 @@ $('.question').click(function() {
 // Customiser
 
 var pattern ='';
-var texture ='stripes';
+var texture ='001';
 
 function showPattern() {
     $('.pattern-display').addClass('hidden');

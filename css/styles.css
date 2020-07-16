@@ -559,8 +559,9 @@ textarea, input {
     margin-bottom: 10px;
 }
 
-.submit, .save, .back {
+.next, .submit, .save, .back, .reset {
     margin-bottom: 30px;
+    margin-right: 20px;
 }
 
 
