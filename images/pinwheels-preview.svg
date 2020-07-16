@@ -1,171 +1,260 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="602px" height="602px" viewBox="0 0 602 602" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>pinwheels-preview</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<svg id="preview-pinwheels" class="previews hidden" viewBox="0 0 602 602" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <defs>
+        <pattern id="previewpinwheels001" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/001.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels002" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/002.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels003" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/003.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels004" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/004.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels005" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/005.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels006" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/006.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels007" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/007.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels008" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/008.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels009" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/009.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels010" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/010.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels011" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/011.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels012" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/012.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels013" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/013.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels014" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/014.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels015" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/015.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels016" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/016.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels017" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/017.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels018" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/018.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels019" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/019.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels020" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/020.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels021" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/021.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels022" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/022.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels023" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/023.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels024" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/024.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels025" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/025.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels026" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/026.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels027" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/027.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels028" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/028.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels029" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/029.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="previewpinwheels030" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/030.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+    </defs>
+
         <g id="pinwheels-preview" transform="translate(1.000000, 1.000000)">
             <rect id="background" stroke="#979797" fill="#FFFFFF" x="0" y="0" width="600" height="600"></rect>
             <g id="pinwheel16" transform="translate(513.500000, 511.500000) scale(1, -1) rotate(-90.000000) translate(-513.500000, -511.500000) translate(450.000000, 448.000000)">
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
             </g>
             <g id="pinwheel15" transform="translate(371.500000, 511.500000) scale(1, -1) rotate(-90.000000) translate(-371.500000, -511.500000) translate(308.000000, 448.000000)">
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
             </g>
             <g id="pinwheel14" transform="translate(229.500000, 511.500000) scale(1, -1) rotate(-90.000000) translate(-229.500000, -511.500000) translate(166.000000, 448.000000)">
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
             </g>
             <g id="pinwheel13" transform="translate(87.500000, 511.500000) scale(1, -1) rotate(-90.000000) translate(-87.500000, -511.500000) translate(24.000000, 448.000000)">
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
             </g>
             <g id="pinwheel12" transform="translate(513.500000, 369.500000) scale(1, -1) rotate(-90.000000) translate(-513.500000, -369.500000) translate(450.000000, 306.000000)">
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
             </g>
             <g id="pinwheel11" transform="translate(371.500000, 369.500000) scale(1, -1) rotate(-90.000000) translate(-371.500000, -369.500000) translate(308.000000, 306.000000)">
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
             </g>
             <g id="pinwheel10" transform="translate(229.500000, 369.500000) scale(1, -1) rotate(-90.000000) translate(-229.500000, -369.500000) translate(166.000000, 306.000000)">
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
             </g>
             <g id="pinwheel9" transform="translate(87.500000, 369.500000) scale(1, -1) rotate(-90.000000) translate(-87.500000, -369.500000) translate(24.000000, 306.000000)">
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
             </g>
             <g id="pinwheel8" transform="translate(513.500000, 227.500000) scale(1, -1) rotate(-90.000000) translate(-513.500000, -227.500000) translate(450.000000, 164.000000)">
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
             </g>
             <g id="pinwheel7" transform="translate(371.500000, 227.500000) scale(1, -1) rotate(-90.000000) translate(-371.500000, -227.500000) translate(308.000000, 164.000000)">
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
             </g>
             <g id="pinwheel6" transform="translate(229.500000, 227.500000) scale(1, -1) rotate(-90.000000) translate(-229.500000, -227.500000) translate(166.000000, 164.000000)">
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 -1.95399252e-14 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -1.91245721e-14 64"></polygon>
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.95399252e-14 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.45421477e-13 127"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 -1.95399252e-14 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -1.91245721e-14 64"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.95399252e-14 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.45421477e-13 127"></polygon>
             </g>
             <g id="pinwheel5" transform="translate(87.500000, 227.500000) scale(1, -1) rotate(-90.000000) translate(-87.500000, -227.500000) translate(24.000000, 164.000000)">
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
             </g>
             <g id="pinwheel4" transform="translate(513.500000, 85.500000) scale(1, -1) rotate(-90.000000) translate(-513.500000, -85.500000) translate(450.000000, 22.000000)">
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
             </g>
             <g id="pinwheel3" transform="translate(371.500000, 85.500000) scale(1, -1) rotate(-90.000000) translate(-371.500000, -85.500000) translate(308.000000, 22.000000)">
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
             </g>
             <g id="pinwheel2" transform="translate(229.500000, 85.500000) scale(1, -1) rotate(-90.000000) translate(-229.500000, -85.500000) translate(166.000000, 22.000000)">
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
-                <polygon id="2-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
-                <polygon id="2-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="2-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
-                <polygon id="2-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -2.02635392e-13 64 64 -2.66453526e-14 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 -2.62299994e-14 64"></polygon>
+                <polygon id="2-l-02" data-group="2-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -3.04201109e-14 127 64 63 64"></polygon>
+                <polygon id="2-l-01" data-group="2-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 8.65085781e-13 127 64 63 64"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="2-r-02" data-group="2-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -3.01980663e-14 127"></polygon>
+                <polygon id="2-r-01" data-group="2-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.15223411e-13 127"></polygon>
             </g>
             <g id="pinwheel1" transform="translate(87.500000, 85.500000) scale(1, -1) rotate(-90.000000) translate(-87.500000, -85.500000) translate(24.000000, 22.000000)">
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
-                <polygon id="1-l-02" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
-                <polygon id="1-l-01" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
-                <polygon id="1-r-02" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
-                <polygon id="1-r-01" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02a" fill="#D8D8D8" transform="translate(32.000000, 32.000000) scale(-1, -1) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 -1.74699214e-13 64 64 1.77635684e-15 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01a" fill="#F0F0F0" transform="translate(32.000000, 32.000000) rotate(90.000000) translate(-32.000000, -32.000000) " points="64 1.77635684e-15 64 64 2.19171001e-15 64"></polygon>
+                <polygon id="1-l-02" data-group="1-l-02b" fill="#D8D8D8" transform="translate(95.000000, 32.000000) scale(-1, 1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 -1.77635684e-15 127 64 63 64"></polygon>
+                <polygon id="1-l-01" data-group="1-l-01b" fill="#F0F0F0" transform="translate(95.000000, 32.000000) scale(1, -1) rotate(90.000000) translate(-95.000000, -32.000000) " points="127 1.04849462e-12 127 64 63 64"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02a" fill="#F0F0F0" transform="translate(95.000000, 95.000000) scale(-1, -1) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01a" fill="#D8D8D8" transform="translate(95.000000, 95.000000) rotate(90.000000) translate(-95.000000, -95.000000) " points="127 63 127 127 63 127"></polygon>
+                <polygon id="1-r-02" data-group="1-r-02b" fill="#F0F0F0" transform="translate(32.000000, 95.000000) scale(-1, 1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 -1.77635684e-15 127"></polygon>
+                <polygon id="1-r-01" data-group="1-r-01b" fill="#D8D8D8" transform="translate(32.000000, 95.000000) scale(1, -1) rotate(90.000000) translate(-32.000000, -95.000000) " points="64 63 64 127 4.63185046e-13 127"></polygon>
             </g>
         </g>
-    </g>
 </svg>
