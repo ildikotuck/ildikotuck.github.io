@@ -176,7 +176,7 @@ $('.texturefill').mouseleave (function () {
 // Resetting the large SVGs
 $('.reset').click (function() {
     event.preventDefault(); 
-    $('.texturefill').css('fill','');
+    $('.texturefill, .previewfill').css('fill','');
 });
 
 
