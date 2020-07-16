@@ -559,10 +559,23 @@ textarea, input {
     margin-bottom: 10px;
 }
 
+@media (max-width:481px) {
+    textarea, input {
+        width: 80%;
+    } 
+
 .next, .submit, .save, .back, .reset {
     margin-bottom: 30px;
     margin-right: 20px;
 }
+
+@media (max-width:481px) {
+    .next, .submit, .save, .back, .reset {
+        width: 100%;
+        margin-bottom: 5px;
+        margin-right: 0;
+}
+    } 
 
 
 /*==========  Non-Mobile First Method  ==========*/
