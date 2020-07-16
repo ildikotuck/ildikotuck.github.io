@@ -567,6 +567,7 @@ textarea, input {
 .next, .submit, .save, .back, .reset {
     margin-bottom: 30px;
     margin-right: 20px;
+    }
 }
 
 
@@ -581,6 +582,7 @@ textarea, input {
 .submit-row {
     margin-bottom: 40px;
 }
+
 
 
 /*==========  Non-Mobile First Method  ==========*/
