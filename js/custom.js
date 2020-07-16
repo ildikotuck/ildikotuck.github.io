@@ -82,6 +82,9 @@ $('.step-one .accordion-header ').click (function() {
     event.preventDefault(); 
     showPattern();
     moveAccordion('.step-one');
+    $('html, body').animate({
+        scrollTop: $('.step-one .accordion-header').offset().top
+      }, 1000);
 });
 
 // Moving from step 2 to step 3
@@ -96,6 +99,10 @@ $('.step-two .accordion-header, .back').click (function() {
     event.preventDefault(); 
     showPattern();
     moveAccordion('.step-two');
+    $('html, body').animate({
+        scrollTop: $('.step-two .accordion-header').offset().top
+      }, 1000);
+
 });
 
 // Moving from step 3 to step 4
@@ -110,6 +117,9 @@ $('.step-three .accordion-header').click (function() {
     event.preventDefault(); 
     showPattern();
     moveAccordion('.step-three');
+    $('html, body').animate({
+        scrollTop: $('.step-three .accordion-header').offset().top
+      }, 1000);
 });
 
 // Selecting material swatches 
