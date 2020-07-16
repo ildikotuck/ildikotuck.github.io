@@ -1,27 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="602px" height="302px" viewBox="0 0 602 302" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>lines-edit</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<svg id="edit-lines" class="svgs" viewBox="0 0 602 302" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <defs>
+        <pattern id="lines001" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/001.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines002" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/002.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines003" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/003.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines004" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/004.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines005" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/005.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines006" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/006.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines007" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/007.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines008" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/008.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines009" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/009.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines010" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/010.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines011" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/011.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines012" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/012.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines013" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/013.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines014" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/014.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines015" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/015.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines016" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/016.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines017" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/017.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines018" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/018.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines019" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/019.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines020" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/020.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines021" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/021.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines022" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/022.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines023" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/023.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines024" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/024.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines025" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/025.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines026" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/026.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines027" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/027.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines028" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/028.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines029" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/029.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+        <pattern id="lines030" patternUnits="userSpaceOnUse" width="100" height="100">
+            <image href="https://ildikotuck.github.io/images/textures/030.jpg" x="0" y="0" width="100" height="100" />
+        </pattern>
+    </defs>
+
         <g id="lines-edit" transform="translate(1.000000, 1.000000)">
-            <rect id="background" stroke="#979797" fill="#FFFFFF" x="0" y="0" width="600" height="300"></rect>
+            <rect id="background" stroke="#E8E8E8" fill="#FFFFFF" x="0" y="0" width="600" height="300"></rect>
             <g id="Group" transform="translate(25.000000, 11.000000)">
                 <g id="lines2" transform="translate(413.000000, 139.000000) rotate(-90.000000) translate(-413.000000, -139.000000) translate(274.500000, 3.500000)">
-                    <rect id="2-05-v" fill="#3A3A3A" x="0.5" y="216.5" width="276" height="54"></rect>
-                    <rect id="2-04-v" fill="#747474" x="0.5" y="162.5" width="276" height="54"></rect>
-                    <rect id="2-03-v" fill="#A8A8A8" x="0.5" y="108.5" width="276" height="54"></rect>
-                    <rect id="2-02-v" fill="#CCCBCB" x="0.5" y="54.5" width="276" height="54"></rect>
-                    <rect id="2-01-v" fill="#F2F2F2" x="0.5" y="0.5" width="276" height="54"></rect>
+                    <rect id="2-05-v" data-group="2-05-v" class="texturefill" fill="#3A3A3A" x="0.5" y="216.5" width="276" height="54"></rect>
+                    <rect id="2-04-v" data-group="2-04-v" class="texturefill" fill="#747474" x="0.5" y="162.5" width="276" height="54"></rect>
+                    <rect id="2-03-v" data-group="2-03-v" class="texturefill" fill="#A8A8A8" x="0.5" y="108.5" width="276" height="54"></rect>
+                    <rect id="2-02-v" data-group="2-02-v" class="texturefill" fill="#CCCBCB" x="0.5" y="54.5" width="276" height="54"></rect>
+                    <rect id="2-01-v" data-group="2-01-v" class="texturefill" fill="#F2F2F2" x="0.5" y="0.5" width="276" height="54"></rect>
                 </g>
                 <g id="lines1" transform="translate(0.000000, 1.000000)">
-                    <rect id="1-05-h" fill="#3A3A3A" x="0" y="221" width="277" height="55"></rect>
-                    <rect id="1-04-h" fill="#747474" x="0" y="166" width="277" height="55"></rect>
-                    <rect id="1-03-h" fill="#A8A8A8" x="0" y="111" width="277" height="55"></rect>
-                    <rect id="1-02-h" fill="#CCCBCB" x="0" y="56" width="277" height="55"></rect>
-                    <rect id="1-01-h" fill="#F2F2F2" x="0" y="0" width="277" height="56.5"></rect>
+                    <rect id="1-05-h" data-group="1-05-h" class="texturefill" fill="#3A3A3A" x="0" y="221" width="277" height="55"></rect>
+                    <rect id="1-04-h" data-group="1-04-h" class="texturefill" fill="#747474" x="0" y="166" width="277" height="55"></rect>
+                    <rect id="1-03-h" data-group="1-03-h" class="texturefill" fill="#A8A8A8" x="0" y="111" width="277" height="55"></rect>
+                    <rect id="1-02-h" data-group="1-02-h" class="texturefill" fill="#CCCBCB" x="0" y="56" width="277" height="55"></rect>
+                    <rect id="1-01-h" data-group="1-01-h" class="texturefill" fill="#F2F2F2" x="0" y="0" width="277" height="56.5"></rect>
                 </g>
             </g>
         </g>
-    </g>
-</svg>
+    </svg>
