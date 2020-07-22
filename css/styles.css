@@ -542,6 +542,12 @@ h1, h2 {
     padding: 20px 0;
 }
 
+.disabled {
+    color: rgb(155, 155, 155);
+    /* background-color: rgb(234, 245, 239); */
+    pointer-events: none;
+}
+
 /* Step 3 form  */
 
 .form {

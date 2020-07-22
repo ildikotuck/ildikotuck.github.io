@@ -75,6 +75,8 @@ $('.step-one input').click(function() {
     pattern = $(this).val();
     showPattern();
     moveAccordion('.step-two');
+    $('.step-two').removeClass('disabled');
+
 });
 
 // Back from step 2 to step 1
@@ -92,16 +94,23 @@ $('.next').click (function() {
     event.preventDefault(); 
     showPattern();
     moveAccordion('.step-three');
+    $('.step-three').removeClass('disabled');
+
 });
 
 // Back from step 3 to step 2
 $('.step-two .accordion-header, .back').click (function() {
-    event.preventDefault(); 
-    showPattern();
-    moveAccordion('.step-two');
-    $('html, body').animate({
+    if (pattern!=='') {
+        event.preventDefault(); 
+        showPattern();
+        moveAccordion('.step-two');
+        $('html, body').animate({
         scrollTop: $('.step-two .accordion-header').offset().top
       }, 1000);
+    } else {
+        $('.step-two').addClass('disabled');
+
+}
 
 });
 
@@ -110,16 +119,22 @@ $('.save').click (function() {
     event.preventDefault(); 
     showPattern();
     moveAccordion('.step-four');
+    $('.step-four').removeClass('disabled');
+
 });
 
 // Back from step 3 to step 2
 $('.step-three .accordion-header').click (function() {
-    event.preventDefault(); 
-    showPattern();
-    moveAccordion('.step-three');
-    $('html, body').animate({
+    if (pattern!=='') {
+        event.preventDefault(); 
+        showPattern();
+        moveAccordion('.step-three');
+        $('html, body').animate({
         scrollTop: $('.step-three .accordion-header').offset().top
-      }, 1000);
+        }, 1000);
+    } else {
+        $('.step-three').addClass('disabled');
+    }
 });
 
 // Selecting material swatches 
